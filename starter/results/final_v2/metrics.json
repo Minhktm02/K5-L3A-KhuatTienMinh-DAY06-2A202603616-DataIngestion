@@ -1,0 +1,159 @@
+{
+  "A": {
+    "dev": {
+      "hit_at_1": {
+        "numerator": 5,
+        "denominator": 15
+      },
+      "evidence_hit_at_3": {
+        "numerator": 9,
+        "denominator": 15
+      },
+      "questions": 15
+    },
+    "test": {
+      "hit_at_1": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "evidence_hit_at_3": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "questions": 5
+    },
+    "configuration": {
+      "chunking": "fixed_size=1200, overlap=120",
+      "metadata_filter": "none",
+      "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "embedding_dimensions": 384,
+      "vector_store": "Qdrant Docker server",
+      "qdrant_server_version": "1.20.0",
+      "qdrant_url": "http://127.0.0.1:6333",
+      "distance": "cosine",
+      "search": "exact",
+      "resource_metrics": {
+        "chunk_count": 97,
+        "total_characters": 98986,
+        "min_characters": 3,
+        "median_characters": 1200,
+        "max_characters": 1200,
+        "total_model_tokens": 24161,
+        "qdrant_points_before": 97,
+        "qdrant_points_after": 97,
+        "embedding_seconds": 4.783,
+        "vector_store_seconds": 0.131,
+        "ingestion_seconds": 5.029,
+        "estimated_cost_usd": 0.0
+      }
+    }
+  },
+  "B": {
+    "dev": {
+      "hit_at_1": {
+        "numerator": 6,
+        "denominator": 15
+      },
+      "evidence_hit_at_3": {
+        "numerator": 9,
+        "denominator": 15
+      },
+      "questions": 15
+    },
+    "test": {
+      "hit_at_1": {
+        "numerator": 0,
+        "denominator": 5
+      },
+      "evidence_hit_at_3": {
+        "numerator": 0,
+        "denominator": 5
+      },
+      "questions": 5
+    },
+    "configuration": {
+      "chunking": "paragraph_max_size=1200",
+      "metadata_filter": "none",
+      "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "embedding_dimensions": 384,
+      "vector_store": "Qdrant Docker server",
+      "qdrant_server_version": "1.20.0",
+      "qdrant_url": "http://127.0.0.1:6333",
+      "distance": "cosine",
+      "search": "exact",
+      "resource_metrics": {
+        "chunk_count": 95,
+        "total_characters": 91063,
+        "min_characters": 4,
+        "median_characters": 1200,
+        "max_characters": 1200,
+        "total_model_tokens": 22138,
+        "qdrant_points_before": 95,
+        "qdrant_points_after": 95,
+        "embedding_seconds": 5.046,
+        "vector_store_seconds": 0.078,
+        "ingestion_seconds": 5.246,
+        "estimated_cost_usd": 0.0
+      }
+    }
+  },
+  "C": {
+    "dev": {
+      "hit_at_1": {
+        "numerator": 7,
+        "denominator": 15
+      },
+      "evidence_hit_at_3": {
+        "numerator": 9,
+        "denominator": 15
+      },
+      "questions": 15,
+      "filter_compliance": {
+        "numerator": 9,
+        "denominator": 9,
+        "filtered_questions": 3
+      }
+    },
+    "test": {
+      "hit_at_1": {
+        "numerator": 0,
+        "denominator": 5
+      },
+      "evidence_hit_at_3": {
+        "numerator": 0,
+        "denominator": 5
+      },
+      "questions": 5,
+      "filter_compliance": {
+        "numerator": 9,
+        "denominator": 9,
+        "filtered_questions": 3
+      }
+    },
+    "configuration": {
+      "chunking": "paragraph_max_size=1200",
+      "metadata_filter": "question-provided payload filter",
+      "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "embedding_dimensions": 384,
+      "vector_store": "Qdrant Docker server",
+      "qdrant_server_version": "1.20.0",
+      "qdrant_url": "http://127.0.0.1:6333",
+      "distance": "cosine",
+      "search": "exact",
+      "resource_metrics": {
+        "chunk_count": 95,
+        "total_characters": 91063,
+        "min_characters": 4,
+        "median_characters": 1200,
+        "max_characters": 1200,
+        "total_model_tokens": 22138,
+        "qdrant_points_before": 95,
+        "qdrant_points_after": 95,
+        "embedding_seconds": 0.0,
+        "vector_store_seconds": 0.061,
+        "ingestion_seconds": 0.162,
+        "estimated_cost_usd": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "A": {
+    "dev": {
+      "hit_at_1": {
+        "numerator": 5,
+        "denominator": 15
+      },
+      "evidence_hit_at_3": {
+        "numerator": 9,
+        "denominator": 15
+      },
+      "questions": 15,
+      "retrieval_latency_seconds": {
+        "count": 15,
+        "mean": 0.029781,
+        "median": 0.01171,
+        "min": 0.009814,
+        "max": 0.21822
+      }
+    },
+    "test": {
+      "hit_at_1": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "evidence_hit_at_3": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "questions": 5,
+      "retrieval_latency_seconds": {
+        "count": 5,
+        "mean": 0.040498,
+        "median": 0.016652,
+        "min": 0.012702,
+        "max": 0.138184
+      }
+    },
+    "configuration": {
+      "chunking": "fixed_size=1200, overlap=120",
+      "metadata_filter": "none",
+      "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "embedding_dimensions": 384,
+      "vector_store": "Qdrant Docker server",
+      "qdrant_server_version": "1.20.0",
+      "qdrant_url": "http://127.0.0.1:6333",
+      "distance": "cosine",
+      "search": "exact",
+      "resource_metrics": {
+        "chunk_count": 96,
+        "total_characters": 98983,
+        "min_characters": 147,
+        "median_characters": 1200.0,
+        "max_characters": 1200,
+        "total_model_tokens": 24157,
+        "qdrant_points_before": 97,
+        "qdrant_points_after": 96,
+        "embedding_seconds": 8.989,
+        "vector_store_seconds": 0.475,
+        "ingestion_seconds": 9.66,
+        "estimated_cost_usd": 0.0
+      }
+    }
+  },
+  "B": {
+    "dev": {
+      "hit_at_1": {
+        "numerator": 5,
+        "denominator": 15
+      },
+      "evidence_hit_at_3": {
+        "numerator": 8,
+        "denominator": 15
+      },
+      "questions": 15,
+      "retrieval_latency_seconds": {
+        "count": 15,
+        "mean": 0.015028,
+        "median": 0.010551,
+        "min": 0.008099,
+        "max": 0.054425
+      }
+    },
+    "test": {
+      "hit_at_1": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "evidence_hit_at_3": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "questions": 5,
+      "retrieval_latency_seconds": {
+        "count": 5,
+        "mean": 0.012617,
+        "median": 0.010993,
+        "min": 0.008533,
+        "max": 0.022827
+      }
+    },
+    "configuration": {
+      "chunking": "paragraph_max_size=1200",
+      "metadata_filter": "none",
+      "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "embedding_dimensions": 384,
+      "vector_store": "Qdrant Docker server",
+      "qdrant_server_version": "1.20.0",
+      "qdrant_url": "http://127.0.0.1:6333",
+      "distance": "cosine",
+      "search": "exact",
+      "resource_metrics": {
+        "chunk_count": 95,
+        "total_characters": 91063,
+        "min_characters": 722,
+        "median_characters": 952,
+        "max_characters": 1189,
+        "total_model_tokens": 22075,
+        "qdrant_points_before": 95,
+        "qdrant_points_after": 95,
+        "embedding_seconds": 6.628,
+        "vector_store_seconds": 0.133,
+        "ingestion_seconds": 6.892,
+        "estimated_cost_usd": 0.0
+      }
+    }
+  },
+  "C": {
+    "dev": {
+      "hit_at_1": {
+        "numerator": 5,
+        "denominator": 15
+      },
+      "evidence_hit_at_3": {
+        "numerator": 9,
+        "denominator": 15
+      },
+      "questions": 15,
+      "retrieval_latency_seconds": {
+        "count": 15,
+        "mean": 0.018913,
+        "median": 0.010649,
+        "min": 0.007962,
+        "max": 0.11317
+      },
+      "filter_compliance": {
+        "numerator": 9,
+        "denominator": 9,
+        "filtered_questions": 3,
+        "queries_with_results": 3,
+        "empty_result_queries": 0
+      }
+    },
+    "test": {
+      "hit_at_1": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "evidence_hit_at_3": {
+        "numerator": 3,
+        "denominator": 5
+      },
+      "questions": 5,
+      "retrieval_latency_seconds": {
+        "count": 5,
+        "mean": 0.014396,
+        "median": 0.011624,
+        "min": 0.008952,
+        "max": 0.029847
+      },
+      "filter_compliance": {
+        "numerator": 9,
+        "denominator": 9,
+        "filtered_questions": 3,
+        "queries_with_results": 3,
+        "empty_result_queries": 0
+      }
+    },
+    "configuration": {
+      "chunking": "paragraph_max_size=1200",
+      "metadata_filter": "question-provided payload filter",
+      "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "embedding_dimensions": 384,
+      "vector_store": "Qdrant Docker server",
+      "qdrant_server_version": "1.20.0",
+      "qdrant_url": "http://127.0.0.1:6333",
+      "distance": "cosine",
+      "search": "exact",
+      "resource_metrics": {
+        "chunk_count": 95,
+        "total_characters": 91063,
+        "min_characters": 722,
+        "median_characters": 952,
+        "max_characters": 1189,
+        "total_model_tokens": 22075,
+        "qdrant_points_before": 95,
+        "qdrant_points_after": 95,
+        "embedding_seconds": 0.0,
+        "vector_store_seconds": 0.119,
+        "ingestion_seconds": 0.275,
+        "estimated_cost_usd": 0.0
+      }
+    }
+  }
+}

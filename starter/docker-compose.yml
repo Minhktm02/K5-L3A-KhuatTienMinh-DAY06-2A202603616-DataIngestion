@@ -1,19 +1,11 @@
 services:
-  postgres:
-    image: pgvector/pgvector:0.8.7-pg16
-    environment:
-      POSTGRES_DB: day6_lab
-      POSTGRES_USER: day6
-      POSTGRES_PASSWORD: day6_local_only
+  qdrant:
+    image: qdrant/qdrant:v1.20.0
+    restart: unless-stopped
     ports:
-      - "127.0.0.1:55433:5432"
+      - "127.0.0.1:6333:6333"
     volumes:
-      - pg_data:/var/lib/postgresql/data
-      - ./init.sql:/docker-entrypoint-initdb.d/01-vector.sql:ro
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U day6 -d day6_lab"]
-      interval: 3s
-      timeout: 3s
-      retries: 30
+      - qdrant_data:/qdrant/storage
 volumes:
-  pg_data:
+  qdrant_data:
+    name: day06_qdrant_data

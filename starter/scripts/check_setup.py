@@ -1,23 +1,20 @@
-"""Read-only setup check; this is a utility, not the student pipeline solution."""
+"""Read-only connectivity check for the configured Qdrant server."""
 import os
 import sys
 from pathlib import Path
 
-import psycopg
+from qdrant_client import QdrantClient
 from dotenv import load_dotenv
 
 load_dotenv(Path(__file__).resolve().parents[1] / '.env')
-url = os.getenv('DATABASE_URL')
-if not url:
-    sys.exit('DATABASE_URL missing: copy starter/.env.example to starter/.env first.')
+url = os.getenv('QDRANT_URL', 'http://127.0.0.1:6333')
+api_key = os.getenv('QDRANT_API_KEY') or None
 try:
-    with psycopg.connect(url, connect_timeout=5) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("SELECT current_database(), current_setting('server_version'), extversion FROM pg_extension WHERE extname = 'vector'")
-            row = cursor.fetchone()
-            if not row:
-                sys.exit('Connected, but pgvector extension is missing. See starter/README.md.')
-            print(f'Database: {row[0]} | PostgreSQL: {row[1]} | pgvector: {row[2]}')
-except psycopg.Error:
-    sys.exit('Database connection failed. Check Docker, port and DATABASE_URL in starter/.env.')
-print('Setup OK. Pipeline functions still need to be implemented.')
+    client = QdrantClient(url=url, api_key=api_key, timeout=5)
+    info = client.info()
+    collections = client.get_collections().collections
+    print(f'Qdrant: {info.version} | URL: {url} | Collections: {len(collections)}')
+    client.close()
+except Exception as exc:
+    sys.exit(f'Qdrant connection failed for {url}: {type(exc).__name__}: {exc}')
+print('Qdrant setup OK.')

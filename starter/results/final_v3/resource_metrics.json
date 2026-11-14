@@ -1,0 +1,44 @@
+{
+  "A": {
+    "chunk_count": 97,
+    "total_characters": 98986,
+    "min_characters": 3,
+    "median_characters": 1200,
+    "max_characters": 1200,
+    "total_model_tokens": 24161,
+    "qdrant_points_before": 97,
+    "qdrant_points_after": 97,
+    "embedding_seconds": 5.504,
+    "vector_store_seconds": 0.088,
+    "ingestion_seconds": 5.723,
+    "estimated_cost_usd": 0.0
+  },
+  "B": {
+    "chunk_count": 95,
+    "total_characters": 91063,
+    "min_characters": 4,
+    "median_characters": 1200,
+    "max_characters": 1200,
+    "total_model_tokens": 22138,
+    "qdrant_points_before": 95,
+    "qdrant_points_after": 95,
+    "embedding_seconds": 5.279,
+    "vector_store_seconds": 0.078,
+    "ingestion_seconds": 5.492,
+    "estimated_cost_usd": 0.0
+  },
+  "C": {
+    "chunk_count": 95,
+    "total_characters": 91063,
+    "min_characters": 4,
+    "median_characters": 1200,
+    "max_characters": 1200,
+    "total_model_tokens": 22138,
+    "qdrant_points_before": 95,
+    "qdrant_points_after": 95,
+    "embedding_seconds": 0.0,
+    "vector_store_seconds": 0.068,
+    "ingestion_seconds": 0.169,
+    "estimated_cost_usd": 0.0
+  }
+}

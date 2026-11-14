@@ -2,3 +2,5 @@
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+qdrant-client>=1.14,<2
+sentence-transformers>=3.3,<6

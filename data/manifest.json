@@ -1,0 +1,276 @@
+{
+  "schema_version": 2,
+  "accessed_at": "2026-11-13T11:51:43.883529+00:00",
+  "source_id": "world-bank-eca-spring-2021",
+  "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+  "source_path_or_url": "C:\\Users\\Admin\\Downloads\\9781464816987.pdf",
+  "source_reference": "World Bank publication, ISBN 978-1-4648-1698-7",
+  "license_or_permission": "Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO), printed on physical page 172. Attribution: International Bank for Reconstruction and Development / The World Bank, 2021. Extracted pages were whitespace-normalized; the original PDF was not modified.",
+  "pdf_sha256": "c826087d47cf033eac7764ee7a159ee60b92cd8c46f7c7ea5fb5dc5f20ed6d16",
+  "physical_page_count": 172,
+  "used_page_count": 30,
+  "used_pages": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "page_counting_method": "Exactly 30 non-empty, text-extractable physical pages, 19-48 inclusive. Physical pages 1-18 are cover/front matter/contents or blank; the selected range is chapter content and excludes the references and license pages. Page IDs remain the original PDF physical page numbers.",
+  "selected_page_processing": [
+    {
+      "physical_page": 19,
+      "character_count": 1775,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Global Context",
+      "section_heading_physical_page": 19
+    },
+    {
+      "physical_page": 20,
+      "character_count": 2404,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Global Context",
+      "section_heading_physical_page": 19
+    },
+    {
+      "physical_page": 21,
+      "character_count": 3636,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Global Context",
+      "section_heading_physical_page": 19
+    },
+    {
+      "physical_page": 22,
+      "character_count": 2420,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Global Context",
+      "section_heading_physical_page": 19
+    },
+    {
+      "physical_page": 23,
+      "character_count": 3607,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Global Context",
+      "section_heading_physical_page": 19
+    },
+    {
+      "physical_page": 24,
+      "character_count": 2720,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Global Risks",
+      "section_heading_physical_page": 24
+    },
+    {
+      "physical_page": 25,
+      "character_count": 3224,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Global Risks",
+      "section_heading_physical_page": 24
+    },
+    {
+      "physical_page": 26,
+      "character_count": 3124,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Global Risks",
+      "section_heading_physical_page": 24
+    },
+    {
+      "physical_page": 27,
+      "character_count": 3237,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Global Risks",
+      "section_heading_physical_page": 24
+    },
+    {
+      "physical_page": 28,
+      "character_count": 3387,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 29,
+      "character_count": 4323,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 30,
+      "character_count": 1530,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 31,
+      "character_count": 2710,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 32,
+      "character_count": 3946,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 33,
+      "character_count": 3001,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 34,
+      "character_count": 2700,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 35,
+      "character_count": 3101,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 36,
+      "character_count": 2723,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 37,
+      "character_count": 3742,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 38,
+      "character_count": 2714,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 39,
+      "character_count": 2896,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Recent Developments",
+      "section_heading_physical_page": 28
+    },
+    {
+      "physical_page": 40,
+      "character_count": 3693,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Regional Outlook",
+      "section_heading_physical_page": 40
+    },
+    {
+      "physical_page": 41,
+      "character_count": 2604,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Regional Outlook",
+      "section_heading_physical_page": 40
+    },
+    {
+      "physical_page": 42,
+      "character_count": 3072,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Regional Outlook",
+      "section_heading_physical_page": 40
+    },
+    {
+      "physical_page": 43,
+      "character_count": 2714,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Regional Outlook",
+      "section_heading_physical_page": 40
+    },
+    {
+      "physical_page": 44,
+      "character_count": 4043,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Regional Outlook",
+      "section_heading_physical_page": 40
+    },
+    {
+      "physical_page": 45,
+      "character_count": 2729,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Regional Outlook",
+      "section_heading_physical_page": 40
+    },
+    {
+      "physical_page": 46,
+      "character_count": 3240,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Regional Outlook",
+      "section_heading_physical_page": 40
+    },
+    {
+      "physical_page": 47,
+      "character_count": 2853,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Regional Outlook",
+      "section_heading_physical_page": 40
+    },
+    {
+      "physical_page": 48,
+      "character_count": 3195,
+      "processing_status": "text_extracted_and_normalized",
+      "section": "Regional Outlook",
+      "section_heading_physical_page": 40
+    }
+  ],
+  "selected_page_extraction_errors": [],
+  "page_snapshot": {
+    "path": "corpus/world_bank_eca_spring_2021_pages.jsonl",
+    "sha256": "1c0679c399daec97c94110218dc5dc5c5253d8311dfe25b9cc45ac14624a7d20",
+    "format": "JSONL; one normalized source page per record",
+    "source_pdf_path_is_required_for_reextracting": true
+  },
+  "section_metadata": {
+    "field": "section",
+    "type": "string",
+    "value_source": "Printed section headings on physical pages 19, 24, 28, and 40",
+    "values": [
+      "Global Context",
+      "Global Risks",
+      "Recent Developments",
+      "Regional Outlook"
+    ]
+  },
+  "citation": "International Bank for Reconstruction and Development / The World Bank. 2021. Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance. ISBN 978-1-4648-1698-7. CC BY 3.0 IGO."
+}

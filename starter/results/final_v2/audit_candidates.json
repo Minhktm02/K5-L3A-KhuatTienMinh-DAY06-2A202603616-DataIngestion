@@ -1,0 +1,1326 @@
+{
+  "method": "Coherence: first 10 sorted source units, offset 200 (fixed before retrieval); label the chunk containing that position. Metadata and grounding: all top-3 hits for the 5 held-out test questions; labels require source comparison.",
+  "coherence": [
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "19",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "a59aebf175d39adb8b723a4627f5ecbe88540d4045cbe724a974d8722d5300db",
+          "text": "3\nGlobal Context\nThe COVID-19 pandemic has plunged the global economy into a deep recession whose\ndepth was surpassed only by the two World Wars and the Great Depression over the past\ncentury and a half. Although global economic activity has picked up again, global gross\ndomestic product (GDP) is not likely to recover for the foreseeable future. Despite the\nsubstantial progress made in the development of vaccines, the sharp resurgence of CO -\nVID-19 at the start of 2021 has cast a shadow over the global recovery, as countries have\nbeen forced to retighten social distancing measures. The rebound in global growth is expected\nto be bolstered by gradual improvement in confidence, consumption, and trade, as well as by\nongoing vaccination. Downside risks still predominate however, including the possibility\nof a further increase in the spread of the virus, delays in vaccine procurement and distri-\nbution, as well as financial stress triggered by high debt levels and weak growth.\nCOVID-19 Pandemic and Overall Trends\nFollowing a collapse in economic activity last year due to the COVID-19 pan -\ndemic, global growth has rebounded in 2021. The pace of the global recovery,\nhowever, was subdued ",
+          "label_0_to_2": 1,
+          "reason": "The sampled text provides useful context but ends mid-thought, limiting standalone completeness."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "d58d4e2855e8686efd1cc2f1bcf16f66a78fc7b5a7f3cf774d234520c307e1cd",
+          "text": "3\nGlobal Context\nThe COVID-19 pandemic has plunged the global economy into a deep recession whose\ndepth was surpassed only by the two World Wars and the Great Depression over the past\ncentury and a half. Although global economic activity has picked up again, global gross\ndomestic product (GDP) is not likely to recover for the foreseeable future. Despite the\nsubstantial progress made in the development of vaccines, the sharp resurgence of CO -\nVID-19 at the start of 2021 has cast a shadow over the global recovery, as countries have\nbeen forced to retighten social distancing measures. The rebound in global growth is expected\nto be bolstered by gradual improvement in confidence, consumption, and trade, as well as by\nongoing vaccination. Downside risks still predominate however, including the possibility\nof a further increase in the spread of the virus, delays in vaccine procurement and distri-\nbution, as well as financial stress triggered by high debt levels and weak growth.\nCOVID-19 Pandemic and Overall Trends\nFollowing a collapse in economic activity last year due to the COVID-19 pan -\ndemic, global growth has rebounded in 2021. The pace of the global recovery,\nhowever, was subdued ",
+          "label_0_to_2": 1,
+          "reason": "The sampled text provides useful context but ends mid-thought, limiting standalone completeness."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "d58d4e2855e8686efd1cc2f1bcf16f66a78fc7b5a7f3cf774d234520c307e1cd",
+          "text": "3\nGlobal Context\nThe COVID-19 pandemic has plunged the global economy into a deep recession whose\ndepth was surpassed only by the two World Wars and the Great Depression over the past\ncentury and a half. Although global economic activity has picked up again, global gross\ndomestic product (GDP) is not likely to recover for the foreseeable future. Despite the\nsubstantial progress made in the development of vaccines, the sharp resurgence of CO -\nVID-19 at the start of 2021 has cast a shadow over the global recovery, as countries have\nbeen forced to retighten social distancing measures. The rebound in global growth is expected\nto be bolstered by gradual improvement in confidence, consumption, and trade, as well as by\nongoing vaccination. Downside risks still predominate however, including the possibility\nof a further increase in the spread of the virus, delays in vaccine procurement and distri-\nbution, as well as financial stress triggered by high debt levels and weak growth.\nCOVID-19 Pandemic and Overall Trends\nFollowing a collapse in economic activity last year due to the COVID-19 pan -\ndemic, global growth has rebounded in 2021. The pace of the global recovery,\nhowever, was subdued ",
+          "label_0_to_2": 1,
+          "reason": "The sampled text provides useful context but ends mid-thought, limiting standalone completeness."
+        }
+      ]
+    },
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "20",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "1b78a88bffd0176a4746eeb550b15457e97240359c61f3f5fe6058521685542d",
+          "text": "4  ● World Bank ECA Economic Update Spring 2021\nwould help mitigate diminishing fiscal support. After this year’s pickup, global\ngrowth was forecast to moderate to 3.8 percent in 2022—still above its potential\npace but weighed down by lasting damage from COVID-19 (figure 1.1, panel A).\nAt this rate, global per capita GDP would remain 4.4 percent below pre-pandemic\nprojections by 2022, reflecting the dampening effects of lingering risk aversion on\nthe demand side and of diminished physical and human capital accumulation on\nlabor productivity.\nA sharp rise in daily new COVID-19 cases in late 2020 softened the incipient\nrecovery in global activity (figure 1.1, panel B). For several economies, however,\nSources: Consensus Economics; Haver Analytics; Our World in Data (database); World Bank.\nNote: AEs = advanced economies; EMDEs = emerging markets and developing economies; FCS = fragile and conflict-affected situations;\nGDP = gross domestic product; LICs = low-income countries.\nA. The shaded area indicates forecasts. Data for 2020 are estimates. Aggregate growth rates were calculated using GDP weights at 2010 prices and\nmarket exchange rates.\nB. The figure shows the seven-day moving aver",
+          "label_0_to_2": 1,
+          "reason": "The chunk begins with continuation text and trails into a figure caption; context is partial."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "608afc79f523ce0412aaab4bb8b7abd06603ff5948ad1354d6ce3f562a0964e5",
+          "text": "4  ● World Bank ECA Economic Update Spring 2021\nwould help mitigate diminishing fiscal support. After this year’s pickup, global\ngrowth was forecast to moderate to 3.8 percent in 2022—still above its potential\npace but weighed down by lasting damage from COVID-19 (figure 1.1, panel A).\nAt this rate, global per capita GDP would remain 4.4 percent below pre-pandemic\nprojections by 2022, reflecting the dampening effects of lingering risk aversion on\nthe demand side and of diminished physical and human capital accumulation on\nlabor productivity.\nA sharp rise in daily new COVID-19 cases in late 2020 softened the incipient\nrecovery in global activity (figure 1.1, panel B). For several economies, however,\nSources: Consensus Economics; Haver Analytics; Our World in Data (database); World Bank.\nNote: AEs = advanced economies; EMDEs = emerging markets and developing economies; FCS = fragile and conflict-affected situations;\nGDP = gross domestic product; LICs = low-income countries.\nA. The shaded area indicates forecasts. Data for 2020 are estimates. Aggregate growth rates were calculated using GDP weights at 2010 prices and\nmarket exchange rates.\nB. The figure shows the seven-day moving aver",
+          "label_0_to_2": 1,
+          "reason": "The chunk begins with continuation text and trails into a figure caption; context is partial."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "608afc79f523ce0412aaab4bb8b7abd06603ff5948ad1354d6ce3f562a0964e5",
+          "text": "4  ● World Bank ECA Economic Update Spring 2021\nwould help mitigate diminishing fiscal support. After this year’s pickup, global\ngrowth was forecast to moderate to 3.8 percent in 2022—still above its potential\npace but weighed down by lasting damage from COVID-19 (figure 1.1, panel A).\nAt this rate, global per capita GDP would remain 4.4 percent below pre-pandemic\nprojections by 2022, reflecting the dampening effects of lingering risk aversion on\nthe demand side and of diminished physical and human capital accumulation on\nlabor productivity.\nA sharp rise in daily new COVID-19 cases in late 2020 softened the incipient\nrecovery in global activity (figure 1.1, panel B). For several economies, however,\nSources: Consensus Economics; Haver Analytics; Our World in Data (database); World Bank.\nNote: AEs = advanced economies; EMDEs = emerging markets and developing economies; FCS = fragile and conflict-affected situations;\nGDP = gross domestic product; LICs = low-income countries.\nA. The shaded area indicates forecasts. Data for 2020 are estimates. Aggregate growth rates were calculated using GDP weights at 2010 prices and\nmarket exchange rates.\nB. The figure shows the seven-day moving aver",
+          "label_0_to_2": 1,
+          "reason": "The chunk begins with continuation text and trails into a figure caption; context is partial."
+        }
+      ]
+    },
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "21",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "d2dda48fb0af395fb41e0e05dc83ae94d5e36ba1f39749fe86061756d7f9e169",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  5\nrenewed weakness was concentrated in service sectors as governments opted for\ntargeted or less stringent lockdowns rather than economywide shutdowns. Ac -\ncordingly, resilience in industrial activity—which mirrored a recovery in global\ngoods trade—provided support, with output surpassing Consensus expectations\nin several economies in the fourth quarter of 2020 (figure 1.1, panel C). Various\neconomic indicators, including the Global Composite Purchasing Managers’ In -\ndex (PMI) and the Sentix index, pointed to firming activity in early 2021 as the\nnumber of daily new cases stabilized and vaccine deployment supported inves -\ntor sentiment. Although vaccination is underway, with about 5.3 percent of the\nglobal population having received at least one dose of the many available vac -\ncines, progress has been uneven across countries. While vaccinations are gather-\ning pace in advanced economies, doses have not yet been administered in about\nhalf of the emerging markets and developing economies (EMDEs) and in most\nlow-income countries by mid-March (figure 1.1, panel D).\nIn 2020, the U.S. economy contracted 3.5 perce",
+          "label_0_to_2": 1,
+          "reason": "The passage begins mid-sentence and ends in a statistic before the next point is complete."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "f317d4a33b3eb2b16b78728925494a88c3be22fb45fa6b0cee22f1c76031658f",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  5\nrenewed weakness was concentrated in service sectors as governments opted for\ntargeted or less stringent lockdowns rather than economywide shutdowns. Ac -\ncordingly, resilience in industrial activity—which mirrored a recovery in global\ngoods trade—provided support, with output surpassing Consensus expectations\nin several economies in the fourth quarter of 2020 (figure 1.1, panel C). Various\neconomic indicators, including the Global Composite Purchasing Managers’ In -\ndex (PMI) and the Sentix index, pointed to firming activity in early 2021 as the\nnumber of daily new cases stabilized and vaccine deployment supported inves -\ntor sentiment. Although vaccination is underway, with about 5.3 percent of the\nglobal population having received at least one dose of the many available vac -\ncines, progress has been uneven across countries. While vaccinations are gather-\ning pace in advanced economies, doses have not yet been administered in about\nhalf of the emerging markets and developing economies (EMDEs) and in most\nlow-income countries by mid-March (figure 1.1, panel D).\nIn 2020, the U.S. economy contracted 3.5 perce",
+          "label_0_to_2": 1,
+          "reason": "The passage begins mid-sentence and ends in a statistic before the next point is complete."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "f317d4a33b3eb2b16b78728925494a88c3be22fb45fa6b0cee22f1c76031658f",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  5\nrenewed weakness was concentrated in service sectors as governments opted for\ntargeted or less stringent lockdowns rather than economywide shutdowns. Ac -\ncordingly, resilience in industrial activity—which mirrored a recovery in global\ngoods trade—provided support, with output surpassing Consensus expectations\nin several economies in the fourth quarter of 2020 (figure 1.1, panel C). Various\neconomic indicators, including the Global Composite Purchasing Managers’ In -\ndex (PMI) and the Sentix index, pointed to firming activity in early 2021 as the\nnumber of daily new cases stabilized and vaccine deployment supported inves -\ntor sentiment. Although vaccination is underway, with about 5.3 percent of the\nglobal population having received at least one dose of the many available vac -\ncines, progress has been uneven across countries. While vaccinations are gather-\ning pace in advanced economies, doses have not yet been administered in about\nhalf of the emerging markets and developing economies (EMDEs) and in most\nlow-income countries by mid-March (figure 1.1, panel D).\nIn 2020, the U.S. economy contracted 3.5 perce",
+          "label_0_to_2": 1,
+          "reason": "The passage begins mid-sentence and ends in a statistic before the next point is complete."
+        }
+      ]
+    },
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "22",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "0e6cddcf04697b47355d735539fd5e469503d141eca17add2a6205e9a901bebb",
+          "text": "6  ● World Bank ECA Economic Update Spring 2021\nSources: CPB Netherlands Bureau for Economic Policy Analysis; European Central Bank (database); European Commission; World Bank; World\nTrade Organization.\nNote: GDP = gross domestic product; IP = industrial production; PMI = Purchasing Managers’ Index.\nA. The figure shows percentage changes in IP since January 2020 and Services PMI for the euro area. The last observation is December 2020 for IP\nand February 2021 for Services PMI. Services PMI readings above 50 indicate expansion in economic activity; readings below 50 indicate contraction.\nB. The figure shows quarter-on-quarter annualized change in real GDP in 2015 prices, and year-on-year change in total real industrial value added\n(2005 = 100) and non-seasonally adjusted nominal retail sales. The last observation is 2020Q4 for GDP and December 2020 for IP and retail sales.\nC. Goods trade is in real terms from the CPB Netherlands Bureau for Economic Policy Analysis, whereas services trade is in values from the World\nTrade Organization. For the global financial crisis, t = September 2008; for COVID-19, t = January 2020.\nD. The figure shows seven-year inflation swap rates for the euro ",
+          "label_0_to_2": 1,
+          "reason": "Figure labels and notes are present, but extracted chart content is fragmented and hard to interpret alone."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "9bc44bdef9573e777e06ffca26f6e4d60b3486f29b9c80c5d5bf778ecd1d9075",
+          "text": "6  ● World Bank ECA Economic Update Spring 2021\nSources: CPB Netherlands Bureau for Economic Policy Analysis; European Central Bank (database); European Commission; World Bank; World\nTrade Organization.\nNote: GDP = gross domestic product; IP = industrial production; PMI = Purchasing Managers’ Index.\nA. The figure shows percentage changes in IP since January 2020 and Services PMI for the euro area. The last observation is December 2020 for IP\nand February 2021 for Services PMI. Services PMI readings above 50 indicate expansion in economic activity; readings below 50 indicate contraction.\nB. The figure shows quarter-on-quarter annualized change in real GDP in 2015 prices, and year-on-year change in total real industrial value added\n(2005 = 100) and non-seasonally adjusted nominal retail sales. The last observation is 2020Q4 for GDP and December 2020 for IP and retail sales.\nC. Goods trade is in real terms from the CPB Netherlands Bureau for Economic Policy Analysis, whereas services trade is in values from the World\nTrade Organization. For the global financial crisis, t = September 2008; for COVID-19, t = January 2020.\nD. The figure shows seven-year inflation swap rates for the euro ",
+          "label_0_to_2": 1,
+          "reason": "Figure labels and notes are present, but extracted chart content is fragmented and hard to interpret alone."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "9bc44bdef9573e777e06ffca26f6e4d60b3486f29b9c80c5d5bf778ecd1d9075",
+          "text": "6  ● World Bank ECA Economic Update Spring 2021\nSources: CPB Netherlands Bureau for Economic Policy Analysis; European Central Bank (database); European Commission; World Bank; World\nTrade Organization.\nNote: GDP = gross domestic product; IP = industrial production; PMI = Purchasing Managers’ Index.\nA. The figure shows percentage changes in IP since January 2020 and Services PMI for the euro area. The last observation is December 2020 for IP\nand February 2021 for Services PMI. Services PMI readings above 50 indicate expansion in economic activity; readings below 50 indicate contraction.\nB. The figure shows quarter-on-quarter annualized change in real GDP in 2015 prices, and year-on-year change in total real industrial value added\n(2005 = 100) and non-seasonally adjusted nominal retail sales. The last observation is 2020Q4 for GDP and December 2020 for IP and retail sales.\nC. Goods trade is in real terms from the CPB Netherlands Bureau for Economic Policy Analysis, whereas services trade is in values from the World\nTrade Organization. For the global financial crisis, t = September 2008; for COVID-19, t = January 2020.\nD. The figure shows seven-year inflation swap rates for the euro ",
+          "label_0_to_2": 1,
+          "reason": "Figure labels and notes are present, but extracted chart content is fragmented and hard to interpret alone."
+        }
+      ]
+    },
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "23",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "56e2117dd542ac4e595435accf5966a85df6583b6c0a03d81cff50c2c05831ae",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  7\ncontinues to persist and impede face-to-face interactions and international travel\nand tourism. Accordingly, the global new services export orders PMI subindex\nhas continued to contract in early 2021, signaling further weakness on the ser -\nvices trade front. Although international travel has improved from its trough\n(about a year ago), it has stabilized far below pre-pandemic levels due in part to\nCOVID-19 travel restrictions. The departure of the United Kingdom from the\nEuropean Single Market and the European Union Customs Union has thus far\nhad only a muted impact on bilateral trade. Still, many businesses are reporting\ndifficulties complying with the new regulations.\nAggressive policy actions by central banks kept the global financial system\nfrom falling into crisis last year. Although the global stock market rally was\nbriefly interrupted in January 2021 amid a spike in risk aversion, risky assets\ncontinued to appreciate on the back of new stimulus measures in the United\nStates and the rollout of vaccines lifted market sentiment. Overall, global finan -\ncial conditions remained exceptionally benign as maj",
+          "label_0_to_2": 1,
+          "reason": "The chunk starts without its antecedent and is truncated mid-clause near the end."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "b28f68ceb751227960fbb9cd62c3984f2cfa9fee92165522901c6d3671a149e2",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  7\ncontinues to persist and impede face-to-face interactions and international travel\nand tourism. Accordingly, the global new services export orders PMI subindex\nhas continued to contract in early 2021, signaling further weakness on the ser -\nvices trade front. Although international travel has improved from its trough\n(about a year ago), it has stabilized far below pre-pandemic levels due in part to\nCOVID-19 travel restrictions. The departure of the United Kingdom from the\nEuropean Single Market and the European Union Customs Union has thus far\nhad only a muted impact on bilateral trade. Still, many businesses are reporting\ndifficulties complying with the new regulations.\nAggressive policy actions by central banks kept the global financial system\nfrom falling into crisis last year. Although the global stock market rally was\nbriefly interrupted in January 2021 amid a spike in risk aversion, risky assets\ncontinued to appreciate on the back of new stimulus measures in the United\nStates and the rollout of vaccines lifted market sentiment. Overall, global finan -\ncial conditions remained exceptionally benign as maj",
+          "label_0_to_2": 1,
+          "reason": "The chunk starts without its antecedent and is truncated mid-clause near the end."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "b28f68ceb751227960fbb9cd62c3984f2cfa9fee92165522901c6d3671a149e2",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  7\ncontinues to persist and impede face-to-face interactions and international travel\nand tourism. Accordingly, the global new services export orders PMI subindex\nhas continued to contract in early 2021, signaling further weakness on the ser -\nvices trade front. Although international travel has improved from its trough\n(about a year ago), it has stabilized far below pre-pandemic levels due in part to\nCOVID-19 travel restrictions. The departure of the United Kingdom from the\nEuropean Single Market and the European Union Customs Union has thus far\nhad only a muted impact on bilateral trade. Still, many businesses are reporting\ndifficulties complying with the new regulations.\nAggressive policy actions by central banks kept the global financial system\nfrom falling into crisis last year. Although the global stock market rally was\nbriefly interrupted in January 2021 amid a spike in risk aversion, risky assets\ncontinued to appreciate on the back of new stimulus measures in the United\nStates and the rollout of vaccines lifted market sentiment. Overall, global finan -\ncial conditions remained exceptionally benign as maj",
+          "label_0_to_2": 1,
+          "reason": "The chunk starts without its antecedent and is truncated mid-clause near the end."
+        }
+      ]
+    },
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "24",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "3e8bee63aa0c7e449f11010936166b868bb116d87ef60a38bb9d673c19ea13eb",
+          "text": "8  ● World Bank ECA Economic Update Spring 2021\nGlobal Risks\nThe global forecast published in January expected a baseline recovery of 4 per -\ncent in 2021 and 3.8 percent in 2022. Although incoming data point to a poten -\ntially stronger rebound, the materialization of several downside risks could de -\nrail the global recovery (figure 1.3 panel A). The spread of the virus could\nreaccelerate if pandemic control measures fail or vaccine deployment faces de -\nlays or bottlenecks. While the pace of vaccination accelerated at the start of 2021\nin advanced economies and some large EMDEs, nearly half of the EMDEs and\nlow-income countries had yet to administer any doses by mid-March. The risk of\nthe virus and its damaging impact on the global economy thus looms in the ab -\nsence of widespread inoculation. The recent emergence of new, more transmis -\nsible variants of the virus also poses challenges to containment efforts.\nA renewed worsening of the pandemic would also exacerbate existing\nstrains—prolonged economic weakness could trigger a wave of bankruptcies;\nbank balance sheets could be further impaired; governments might be unable to\ncontinue providing support; and, in some circumstance",
+          "label_0_to_2": 1,
+          "reason": "The section is identifiable and the risk discussion is understandable, but the chunk cuts off mid-sentence."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "afc2c99357e1234926e9ed56e2579b00958642cc6a70c422d88e883221870267",
+          "text": "8  ● World Bank ECA Economic Update Spring 2021\nGlobal Risks\nThe global forecast published in January expected a baseline recovery of 4 per -\ncent in 2021 and 3.8 percent in 2022. Although incoming data point to a poten -\ntially stronger rebound, the materialization of several downside risks could de -\nrail the global recovery (figure 1.3 panel A). The spread of the virus could\nreaccelerate if pandemic control measures fail or vaccine deployment faces de -\nlays or bottlenecks. While the pace of vaccination accelerated at the start of 2021\nin advanced economies and some large EMDEs, nearly half of the EMDEs and\nlow-income countries had yet to administer any doses by mid-March. The risk of\nthe virus and its damaging impact on the global economy thus looms in the ab -\nsence of widespread inoculation. The recent emergence of new, more transmis -\nsible variants of the virus also poses challenges to containment efforts.\nA renewed worsening of the pandemic would also exacerbate existing\nstrains—prolonged economic weakness could trigger a wave of bankruptcies;\nbank balance sheets could be further impaired; governments might be unable to\ncontinue providing support; and, in some circumstance",
+          "label_0_to_2": 1,
+          "reason": "The section is identifiable and the risk discussion is understandable, but the chunk cuts off mid-sentence."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "afc2c99357e1234926e9ed56e2579b00958642cc6a70c422d88e883221870267",
+          "text": "8  ● World Bank ECA Economic Update Spring 2021\nGlobal Risks\nThe global forecast published in January expected a baseline recovery of 4 per -\ncent in 2021 and 3.8 percent in 2022. Although incoming data point to a poten -\ntially stronger rebound, the materialization of several downside risks could de -\nrail the global recovery (figure 1.3 panel A). The spread of the virus could\nreaccelerate if pandemic control measures fail or vaccine deployment faces de -\nlays or bottlenecks. While the pace of vaccination accelerated at the start of 2021\nin advanced economies and some large EMDEs, nearly half of the EMDEs and\nlow-income countries had yet to administer any doses by mid-March. The risk of\nthe virus and its damaging impact on the global economy thus looms in the ab -\nsence of widespread inoculation. The recent emergence of new, more transmis -\nsible variants of the virus also poses challenges to containment efforts.\nA renewed worsening of the pandemic would also exacerbate existing\nstrains—prolonged economic weakness could trigger a wave of bankruptcies;\nbank balance sheets could be further impaired; governments might be unable to\ncontinue providing support; and, in some circumstance",
+          "label_0_to_2": 1,
+          "reason": "The section is identifiable and the risk discussion is understandable, but the chunk cuts off mid-sentence."
+        }
+      ]
+    },
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "25",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "007663d6ff777464ff6a59d3ca41402fe251bb2b44cff08ad04533c9baa42085",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  9\nThe spread of COVID-19 represents an unprec -\nedented global shock, with the disease itself\nand mitigation efforts—such as social distanc -\ning measures and partial and national lockdown\nmeasures—having a significant impact on the\neconomy. In the immediate aftermath, the financial\nsector, particularly banks, was expected to play an\nimportant role in absorbing the shock by supply -\ning vital credit to the corporate sector and house -\nholds. In an effort to facilitate this, central banks\nand governments around the world enacted a wide\nrange of policy measures to provide greater liquid-\nity and support the flow of credit. An important\npolicy question is the potential impact of these\ncountercyclical lending policies on the future sta -\nbility of banking systems and the extent to which\ntheir strengthened capital positions since the\nglobal financial crisis will allow them to absorb this\nshock without undermining their resilience.\nIn a recent paper, Demirgüc-Kunt, Pedraza, and\nRuiz-Ortega (2020) use daily stock prices and other\nbalance sheet information for a sample of banks in\n53 countries to take a look at this is",
+          "label_0_to_2": 1,
+          "reason": "The topic and opening explanation are clear, while the later discussion is clipped."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "4a56fa7b62fc2fb3d37c978d86b4cd2ab7823b2c670a1636bf02c175570d26b4",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  9\nThe spread of COVID-19 represents an unprec -\nedented global shock, with the disease itself\nand mitigation efforts—such as social distanc -\ning measures and partial and national lockdown\nmeasures—having a significant impact on the\neconomy. In the immediate aftermath, the financial\nsector, particularly banks, was expected to play an\nimportant role in absorbing the shock by supply -\ning vital credit to the corporate sector and house -\nholds. In an effort to facilitate this, central banks\nand governments around the world enacted a wide\nrange of policy measures to provide greater liquid-\nity and support the flow of credit. An important\npolicy question is the potential impact of these\ncountercyclical lending policies on the future sta -\nbility of banking systems and the extent to which\ntheir strengthened capital positions since the\nglobal financial crisis will allow them to absorb this\nshock without undermining their resilience.\nIn a recent paper, Demirgüc-Kunt, Pedraza, and\nRuiz-Ortega (2020) use daily stock prices and other\nbalance sheet information for a sample of banks in\n53 countries to take a look at this is",
+          "label_0_to_2": 1,
+          "reason": "The topic and opening explanation are clear, while the later discussion is clipped."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "4a56fa7b62fc2fb3d37c978d86b4cd2ab7823b2c670a1636bf02c175570d26b4",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  9\nThe spread of COVID-19 represents an unprec -\nedented global shock, with the disease itself\nand mitigation efforts—such as social distanc -\ning measures and partial and national lockdown\nmeasures—having a significant impact on the\neconomy. In the immediate aftermath, the financial\nsector, particularly banks, was expected to play an\nimportant role in absorbing the shock by supply -\ning vital credit to the corporate sector and house -\nholds. In an effort to facilitate this, central banks\nand governments around the world enacted a wide\nrange of policy measures to provide greater liquid-\nity and support the flow of credit. An important\npolicy question is the potential impact of these\ncountercyclical lending policies on the future sta -\nbility of banking systems and the extent to which\ntheir strengthened capital positions since the\nglobal financial crisis will allow them to absorb this\nshock without undermining their resilience.\nIn a recent paper, Demirgüc-Kunt, Pedraza, and\nRuiz-Ortega (2020) use daily stock prices and other\nbalance sheet information for a sample of banks in\n53 countries to take a look at this is",
+          "label_0_to_2": 1,
+          "reason": "The topic and opening explanation are clear, while the later discussion is clipped."
+        }
+      ]
+    },
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "26",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "34684a72e321d40a1bd83d09b70054722b4aec13ada0f0e4133f01bbdf8ed4b9",
+          "text": "10  ● World Bank ECA Economic Update Spring 2021\n(continued)\nNext, the authors investigate more than 400\npolicy announcements between February and\nApril 2020. The financial sector policy initiatives\nare classified as follows. (i) Liquidity support mea -\nsures are used by monetary authorities to expand\nbanks’ short-term funding in domestic and foreign\ncurrency. (ii) Prudential measures deal with the\ntemporary relaxation of regulatory and supervisory\nrequirements, including capital buffers. (iii) Bor -\nrower assistance measures include government-\nsponsored credit lines or liability guarantees. (iv)\nMonetary policy measures include policy rate cuts\nand quantitative easing. To investigate the mar -\nket response to each policy measure, the authors\nstudy abnormal returns to bank stocks around\nannouncement days. The results (summarized in\nfigure B1.1.2) are as follows:\n• Announcements of liquidity support were\nassociated with large increases in banks’\nstock prices. It appears that access to cen -\ntral bank refinancing and initiatives that\naddress shortages in bank funding had a\ncalming effect on markets, as evidenced by\nBOX 1.1\nthe overperformance of bank stocks around\nthese events. Thes",
+          "label_0_to_2": 1,
+          "reason": "The study and policy taxonomy are introduced clearly, but the final thought is cut off."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "a56868e2f64e07d32d7299b684ef59090eb82f8418fca74e362cc34f779df5fd",
+          "text": "10  ● World Bank ECA Economic Update Spring 2021\n(continued)\nNext, the authors investigate more than 400\npolicy announcements between February and\nApril 2020. The financial sector policy initiatives\nare classified as follows. (i) Liquidity support mea -\nsures are used by monetary authorities to expand\nbanks’ short-term funding in domestic and foreign\ncurrency. (ii) Prudential measures deal with the\ntemporary relaxation of regulatory and supervisory\nrequirements, including capital buffers. (iii) Bor -\nrower assistance measures include government-\nsponsored credit lines or liability guarantees. (iv)\nMonetary policy measures include policy rate cuts\nand quantitative easing. To investigate the mar -\nket response to each policy measure, the authors\nstudy abnormal returns to bank stocks around\nannouncement days. The results (summarized in\nfigure B1.1.2) are as follows:\n• Announcements of liquidity support were\nassociated with large increases in banks’\nstock prices. It appears that access to cen -\ntral bank refinancing and initiatives that\naddress shortages in bank funding had a\ncalming effect on markets, as evidenced by\nBOX 1.1\nthe overperformance of bank stocks around\nthese events. Thes",
+          "label_0_to_2": 1,
+          "reason": "The study and policy taxonomy are introduced clearly, but the final thought is cut off."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "a56868e2f64e07d32d7299b684ef59090eb82f8418fca74e362cc34f779df5fd",
+          "text": "10  ● World Bank ECA Economic Update Spring 2021\n(continued)\nNext, the authors investigate more than 400\npolicy announcements between February and\nApril 2020. The financial sector policy initiatives\nare classified as follows. (i) Liquidity support mea -\nsures are used by monetary authorities to expand\nbanks’ short-term funding in domestic and foreign\ncurrency. (ii) Prudential measures deal with the\ntemporary relaxation of regulatory and supervisory\nrequirements, including capital buffers. (iii) Bor -\nrower assistance measures include government-\nsponsored credit lines or liability guarantees. (iv)\nMonetary policy measures include policy rate cuts\nand quantitative easing. To investigate the mar -\nket response to each policy measure, the authors\nstudy abnormal returns to bank stocks around\nannouncement days. The results (summarized in\nfigure B1.1.2) are as follows:\n• Announcements of liquidity support were\nassociated with large increases in banks’\nstock prices. It appears that access to cen -\ntral bank refinancing and initiatives that\naddress shortages in bank funding had a\ncalming effect on markets, as evidenced by\nBOX 1.1\nthe overperformance of bank stocks around\nthese events. Thes",
+          "label_0_to_2": 1,
+          "reason": "The study and policy taxonomy are introduced clearly, but the final thought is cut off."
+        }
+      ]
+    },
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "27",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "f3dacda5c9df229e0c673705a7ed266c903cc4d9c1d1322305cd3668c468630f",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  11\nThese developments follow a decade that featured the largest, fastest, and\nmost broad-based increase in debt on record (Kose et al. 2020). Fiscal support and\nprivate sector borrowing to weather the shock from COVID-19 have pushed debt\neven higher (figure 1.3, panel B). Although low interest rates mitigate risks for\nsome countries, elevated debt levels nonetheless increase the vulnerability to a\nshift in market conditions. Many borrowers would struggle to finance fiscal and\ncurrent account deficits if investor sentiment were to deteriorate suddenly. Un -\nderdeveloped capital markets in many EMDEs pose risks to banking, corporate,\nand government funding in the event of renewed tightening in global financial\nconditions (IOSCO 2020). Although global financial conditions remain somewhat\nbenign, inflation expectations are rising in some large, advanced countries. A\nsharp reassessment of inflation could trigger a sudden tightening in global fi -\nnancing conditions—in turn, higher funding costs could lead to forced austerity\nor disruptive defaults that result in lost access to international debt markets.\nCompounding",
+          "label_0_to_2": 1,
+          "reason": "The debt-risk context is mostly understandable, though the next point is truncated."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "1330059effe7d89765847041b4f9870a320efc9594f65672f0f134a76721d960",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  11\nThese developments follow a decade that featured the largest, fastest, and\nmost broad-based increase in debt on record (Kose et al. 2020). Fiscal support and\nprivate sector borrowing to weather the shock from COVID-19 have pushed debt\neven higher (figure 1.3, panel B). Although low interest rates mitigate risks for\nsome countries, elevated debt levels nonetheless increase the vulnerability to a\nshift in market conditions. Many borrowers would struggle to finance fiscal and\ncurrent account deficits if investor sentiment were to deteriorate suddenly. Un -\nderdeveloped capital markets in many EMDEs pose risks to banking, corporate,\nand government funding in the event of renewed tightening in global financial\nconditions (IOSCO 2020). Although global financial conditions remain somewhat\nbenign, inflation expectations are rising in some large, advanced countries. A\nsharp reassessment of inflation could trigger a sudden tightening in global fi -\nnancing conditions—in turn, higher funding costs could lead to forced austerity\nor disruptive defaults that result in lost access to international debt markets.\nCompounding",
+          "label_0_to_2": 1,
+          "reason": "The debt-risk context is mostly understandable, though the next point is truncated."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "1330059effe7d89765847041b4f9870a320efc9594f65672f0f134a76721d960",
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  11\nThese developments follow a decade that featured the largest, fastest, and\nmost broad-based increase in debt on record (Kose et al. 2020). Fiscal support and\nprivate sector borrowing to weather the shock from COVID-19 have pushed debt\neven higher (figure 1.3, panel B). Although low interest rates mitigate risks for\nsome countries, elevated debt levels nonetheless increase the vulnerability to a\nshift in market conditions. Many borrowers would struggle to finance fiscal and\ncurrent account deficits if investor sentiment were to deteriorate suddenly. Un -\nderdeveloped capital markets in many EMDEs pose risks to banking, corporate,\nand government funding in the event of renewed tightening in global financial\nconditions (IOSCO 2020). Although global financial conditions remain somewhat\nbenign, inflation expectations are rising in some large, advanced countries. A\nsharp reassessment of inflation could trigger a sudden tightening in global fi -\nnancing conditions—in turn, higher funding costs could lead to forced austerity\nor disruptive defaults that result in lost access to international debt markets.\nCompounding",
+          "label_0_to_2": 1,
+          "reason": "The debt-risk context is mostly understandable, though the next point is truncated."
+        }
+      ]
+    },
+    {
+      "document_id": "world-bank-eca-spring-2021",
+      "page": "28",
+      "source_offset": 200,
+      "A": [
+        {
+          "chunk_id": "fcad0dbfa7a08b3c627f5d44775e5439a34a968cc1f00c7fffd8060237c0ea53",
+          "text": "12  ● World Bank ECA Economic Update Spring 2021\nwith strong trade or financial linkages to the euro area and those heavily dependent on\nservices and tourism were the hardest hit. The pace of recovery in 2021 is projected to be\nfaster than originally anticipated, at 3.6 percent, as firming external demand and stabiliz-\ning industrial commodity prices partly offset a recent flare-up in new COVID-19 cases.\nGrowth is then expected to rise to 3.8 percent in 2022, as the effects of the pandemic\ngradually wane and the recovery in trade and investment gathers momentum. The out-\nlook remains highly uncertain and growth could be weaker than envisioned if the pan -\ndemic takes longer than expected to fade, external financing conditions tighten, policy\nuncertainty spikes, or geopolitical tensions escalate again.\nRecent Developments\nThe COVID-19 pandemic has generated a major health and economic crisis in\nECA, which has been further compounded by social unrest and conflict. CO -\nVID-19 has infected 15.5 million people in the region, making ECA the second\nhardest hit region in per capita terms after Latin America and the Caribbean.1 The\nrate of new cases sharply accelerated starting in the four",
+          "label_0_to_2": 1,
+          "reason": "The chunk starts as a continuation without its subject and contains only partial context."
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "f194973ea55c9ba7b631c0d9adbd4b103a72c122b579c06d6654eac2278277c8",
+          "text": "12  ● World Bank ECA Economic Update Spring 2021\nwith strong trade or financial linkages to the euro area and those heavily dependent on\nservices and tourism were the hardest hit. The pace of recovery in 2021 is projected to be\nfaster than originally anticipated, at 3.6 percent, as firming external demand and stabiliz-\ning industrial commodity prices partly offset a recent flare-up in new COVID-19 cases.\nGrowth is then expected to rise to 3.8 percent in 2022, as the effects of the pandemic\ngradually wane and the recovery in trade and investment gathers momentum. The out-\nlook remains highly uncertain and growth could be weaker than envisioned if the pan -\ndemic takes longer than expected to fade, external financing conditions tighten, policy\nuncertainty spikes, or geopolitical tensions escalate again.\nRecent Developments\nThe COVID-19 pandemic has generated a major health and economic crisis in\nECA, which has been further compounded by social unrest and conflict. CO -\nVID-19 has infected 15.5 million people in the region, making ECA the second\nhardest hit region in per capita terms after Latin America and the Caribbean.1 The\nrate of new cases sharply accelerated starting in the four",
+          "label_0_to_2": 1,
+          "reason": "The chunk starts as a continuation without its subject and contains only partial context."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "f194973ea55c9ba7b631c0d9adbd4b103a72c122b579c06d6654eac2278277c8",
+          "text": "12  ● World Bank ECA Economic Update Spring 2021\nwith strong trade or financial linkages to the euro area and those heavily dependent on\nservices and tourism were the hardest hit. The pace of recovery in 2021 is projected to be\nfaster than originally anticipated, at 3.6 percent, as firming external demand and stabiliz-\ning industrial commodity prices partly offset a recent flare-up in new COVID-19 cases.\nGrowth is then expected to rise to 3.8 percent in 2022, as the effects of the pandemic\ngradually wane and the recovery in trade and investment gathers momentum. The out-\nlook remains highly uncertain and growth could be weaker than envisioned if the pan -\ndemic takes longer than expected to fade, external financing conditions tighten, policy\nuncertainty spikes, or geopolitical tensions escalate again.\nRecent Developments\nThe COVID-19 pandemic has generated a major health and economic crisis in\nECA, which has been further compounded by social unrest and conflict. CO -\nVID-19 has infected 15.5 million people in the region, making ECA the second\nhardest hit region in per capita terms after Latin America and the Caribbean.1 The\nrate of new cases sharply accelerated starting in the four",
+          "label_0_to_2": 1,
+          "reason": "The chunk starts as a continuation without its subject and contains only partial context."
+        }
+      ]
+    }
+  ],
+  "test_metadata_and_grounding": [
+    {
+      "strategy": "A",
+      "question_id": "q21",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "fe6fb74463e1e2cd8e9141e6c30d613ef8ee95c9f3254f2b7d852f3a2c4cd7d5",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "29",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 3240,
+            "source_offset_end": 4323
+          },
+          "text": "ents. By early September 2020, about 12 percent\nof countries were in full lockdown, 18 percent had\npartial lockdowns, schools remained fully closed\nin 20 percent, and restrictions on public events\nremain in about 50 percent of the countries.\nAnother important dimension of the reopening\nprocess is its timing in relation to the pandemic’s\nevolution. The reopening wait is defined as the\nnumber of days between the first peak of deaths\nand the first date when the Stringency Index\ndecreased from its maximum value (the start of\nthe reopening process). A short wait is associated\nwith an early reopening that started soon after the\npeak of the outbreak, with the negative wait values\nsuggesting that the reopening process took place\nbefore the peak was reached. In contrast, a long\nwait is associated with a later reopening that starts\nlong after the outbreak’s peak. Some countries\nspent a long time in full lockdown and started to\nLessons after the first wave of the COVID-19 pandemic:\nopening-up trajectories, trust in government, and\neconomic recovery\nBOX 1.2\n(Continued next page)",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "f5f4459364da1ab75736de0b8126aab8548dfa2e006a3606dff2f53f1c093548",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "30",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 1080,
+            "source_offset_end": 1530
+          },
+          "text": " distancing\nSchool closure\nPartial lockdown\nFull lockdown\nSource: Oxford University, World Bank.\nNote: The figure plots the share of countries in Europe and Central Asia adopting each type of\nnonpharmaceutical intervention at each date between February 1 and October 1, 2020. Social\ndistancing is defined as the canceling of public events and large gatherings. A partial lockdown\nonly applies to a geographical region or a targeted set of activities.",
+          "grounding_label_0_to_2": 2,
+          "reason": "The hit contains sufficient source evidence for the asked fact and is traceable; metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "a341da94b7a3152b5f888ab38332508fc8c591b600dbc47cab5e75de863545b1",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "29",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 2160,
+            "source_offset_end": 3360
+          },
+          "text": "t al. 2020). The difference\nbetween the 25th and 75th percentiles was at its\nminimum on April 11-12, 2020, when more than 90\npercent of the countries had implemented a full\nlockdown. That difference more than doubled by\nmid-June 2020—some countries were still under\nstrict social distancing measures while others had\nremoved restrictions on most activities. By fall,\nsome countries opened further, and others scaled\nback the reopening measures in light of the second\nwave of COVID-19 cases.\nThe sequence in which different social and\neconomic activities restart their normal operation\nis an important dimension of the reopening pro -\ncess. Figure B1.2.2 plots the share of countries that\nhad in place a specific type of nonpharmaceutical\nintervention at every point in time. Most countries\nshifted from having a full lockdown to a partial\nlockdown during the late spring of 2020 and then\nremoved lockdown measures altogether—keep -\ning in place school closures and restrictions on\npublic events. Schools were gradually reopened,\nand many countries also lifted the ban on public\nevents. By early September 2020, about 12 percent\nof countries were in full lockdown, 18 percent had\npartial lockdowns, sc",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q22",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "208fcc97c01d4da7ecab16cebd520475557b732b054616a4a0b19a9ff3e45cff",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "33",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  17\nbenefited from host country macroeconomic support and a drawdown in savings\n(figure 1.4, panel D) (Dinarte et al. 2021; Quayyum and Kpodar 2020; ILO 2021).2\nWithin ECA, increases in the number of unemployed were particularly pro -\n2. There could be several explanations for the observed recovery of remittance flows in the\nsecond half of 2020 and early 2021. Some studies indicate that migrants might have drawn\non their saving to send money home during the pandemic, or that some migrants were able\nto access cash transfers offered by host country governments. Another relevant explanation\nfor ECA is a shift in flows from informal (unrecorded) hand-carrying to formal (recorded)\nremittance channels. The emerging studies (for example, Dinarte et al., 2021) indicate that\nthe mobility constraints that prevented travelers from carrying cash across borders made\nelectronic wire transfers the only option to remit. Because wire transfers are registered by\nthe central banks, many countries saw an increase in formal remittances over the past sev-\neral months. However, the impact of this compositional shift on the total amoun",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "b5112138f7319496bf7a816823ebd43197cd057431de4cc39b091c2918491cc2",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "32",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 2160,
+            "source_offset_end": 3360
+          },
+          "text": "ic on the recovery process,\nusing data from the 2018 round of the European\nSocial Survey and the 2016 Life in Transition Survey.\nBOX 1.2\nThey find that governance, particularly trust in gov-\nernment institutions, is an essential determinant\nof economic recovery. Specifically, their results\nshow that a higher level of trust in government is\nassociated with a faster recovery among countries\nthat carried out a gradual reopening process. The\nanalysis also shows that fear and anxiety about the\nspread of the pandemic may hinder the recovery\nof economic activity as countries reopen. There is\nsuggestive evidence that providing the population\nobjective information and data about the prog -\nress of the pandemic could be an effective policy\ninstrument in promoting faster recovery, although\ncausality is difficult to establish.\nThe findings have important policy implica -\ntions for the second wave of the COVID-19 pan -\ndemic that swept most of the world in late 2020.\nGiven the “pandemic fatigue” and growing public\nexhaustion and frustration with restrictions, public\nofficials in many countries were initially more reluc-\ntant to introduce strict interventions, fearing their\neconomic impact, alth",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "c44b969bdb92f2bf3af6c92f1aa3381cf26ff6073e1bc7e16ae5e2e12643fc8f",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "32",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 3240,
+            "source_offset_end": 3946
+          },
+          "text": "in many countries were initially more reluc-\ntant to introduce strict interventions, fearing their\neconomic impact, although they quickly found\nthemselves with few other options as the second\nwave of the pandemic worsened. As countries start\ntheir second reopening process, Demirgüc-Kunt,\nLokshin, and Torre’s (2020) results suggest that a\ncareful, gradual, and transparent reopening pro -\ncess is likely to be optimal for minimizing the health\ncosts of the pandemic and increasing the chances\nof a faster recovery. The results also suggest the\nimportance of building trust for governments to\nincrease their chances of success in this process.\nSource: Adapted from Demirgüc-Kunt, Lokshin, and Torre (2020).",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q23",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "00e7f8c92b01bce8f7c4ba6303e44d166642849c3fdf0710700343ebeb3343d9",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "38",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 1080,
+            "source_offset_end": 2280
+          },
+          "text": "ountries with inflation near or above target ranges.\nOf the 17 ECA economies with stated inflation targets, nearly half reported head-\nline inflation that exceeded the upper inflation band in early 2021 (figure 1.7,\npanel B). As a result of inflationary pressures, roughly a third of ECA’s economies\nwere forced to abruptly hike policy interest rates in early 2021.\nFiscal support packages were announced in nearly all ECA economies, with\nseveral governments receiving aid from official sources, ramping up borrowing\nin debt markets, and prioritizing spending to bolster health care systems,\nstrengthen safety nets, support the private sector, and counter financial market\ndisruptions. Job retention and labor market support schemes were also imple -\nmented to sustain employment. Although the average fiscal response has been\nlarger in ECA than in most other EMDE regions, there is wide variation within\nFIGURE 1.6 Portfolio and FDI flows in ECA\nb. Foreign direct investment inflows\nby region, 2019 and 2020 a. ECA portfolio outflows\nPercent of GDP , accumulated\nweekly flows\n−1.4\n−1.2\n−1.0\n−0.8\n−0.6\n−0.4\n−0.2\n0.0\n05 10 15 20 25 30 35 40 45 50 55\nWeeks\nEMDEs ECA\n−42%\n−69%\n−12%\n−77%\n05 00 1,0001 ,5",
+          "grounding_label_0_to_2": 2,
+          "reason": "The hit contains sufficient source evidence for the asked fact and is traceable; metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "1b78a88bffd0176a4746eeb550b15457e97240359c61f3f5fe6058521685542d",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "20",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Global Context",
+            "section_heading_page": 19,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "4  ● World Bank ECA Economic Update Spring 2021\nwould help mitigate diminishing fiscal support. After this year’s pickup, global\ngrowth was forecast to moderate to 3.8 percent in 2022—still above its potential\npace but weighed down by lasting damage from COVID-19 (figure 1.1, panel A).\nAt this rate, global per capita GDP would remain 4.4 percent below pre-pandemic\nprojections by 2022, reflecting the dampening effects of lingering risk aversion on\nthe demand side and of diminished physical and human capital accumulation on\nlabor productivity.\nA sharp rise in daily new COVID-19 cases in late 2020 softened the incipient\nrecovery in global activity (figure 1.1, panel B). For several economies, however,\nSources: Consensus Economics; Haver Analytics; Our World in Data (database); World Bank.\nNote: AEs = advanced economies; EMDEs = emerging markets and developing economies; FCS = fragile and conflict-affected situations;\nGDP = gross domestic product; LICs = low-income countries.\nA. The shaded area indicates forecasts. Data for 2020 are estimates. Aggregate growth rates were calculated using GDP weights at 2010 prices and\nmarket exchange rates.\nB. The figure shows the seven-day moving aver",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "e2169eb5c4351cda11c11d9c8ba9f5a756f7011462cb56e2cd826f03027b6bac",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "38",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "22  ● World Bank ECA Economic Update Spring 2021\nelevated relative to a year ago, and in some cases, they spiked again due to policy\nuncertainty, geopolitical tensions, or external financing pressures. Some ECA\nEMDEs subsequently faced external financing pressures, including from the col-\nlapse in FDI inflows, but were partly able to offset these tensions by tapping into\nEurobond markets and bilateral funding from Russia.\nMonetary policy became more expansionary as economic conditions deterio-\nrated in 2020. Several central banks intervened in foreign exchange markets to\nstabilize their currencies and mitigate volatility (Croatia, Kazakhstan, Kyrgyz\nRepublic, Serbia, and Turkey), while others tapped sovereign wealth funds\n(Azerbaijan and Kazakhstan). Some countries have used unconventional poli -\ncies, such as asset purchases (Croatia, Hungary, Poland, Romania, and Turkey)\n(figure 1.7, panel A). Recent currency depreciation and capacity constraints have\nput further upward pressure on inflation and reduced the scope for additional\npolicy rate cuts, especially for countries with inflation near or above target ranges.\nOf the 17 ECA economies with stated inflation targets, nearly half ",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q24",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "67bcaa34a3b6a1b1f66632be6bdf254e4977c3fd0f53a979e6ef312aca3458d2",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "41",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1080,
+            "source_offset_end": 2280
+          },
+          "text": "f the population had received a dose as of mid-March, reflecting a general\nreluctance to be immunized. Unless vaccine uptake accelerates, the Ministry of\nHealth’s target of vaccinating 60 percent of adults by mid-2021 could remain a\ndistant goal. Internationally, Sputnik V had been approved in about 50 countries\nas of mid-March.\nThe contraction in output in 2020 was shallower than anticipated, with the\nRussian economy shrinking -3.1 percent compared with the January estimate of\n-4 percent (table 1.2). Despite high compliance with OPEC+ production cuts, in -\ndustrial activity was more resilient than had been assumed, as policy makers\nFIGURE 1.8 GDP trends in ECA\nb. Long-term investment forecasts\na. GDP per capita growth gaps with\npre-pandemic projections by 2022\n−10\n−8\n−6\n−4\n−2\n0\nEE SCC WBKC AC EE CA\nRussian\nFederationT urkey\nPercent\nPercent\n0\n2\n4\n6\n8\n2021 2022 2023 2024 2025 2026 2027 2028\nTurkey Russian FederationECA Central Europe\nSources: Consensus Economics; World Bank.\nNote: CA = Central Asia; CE = Central Europe; ECA = Europe and Central Asia; EE = Eastern Europe; EMDEs = emerging markets and developing\neconomies; GDP = gross domestic product; IMF = International Monetary Fun",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "d058982e3a12ffb3d214d39e96da45b11ad1490c8a13d8d3f5831277e4081cc9",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "43",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 2160,
+            "source_offset_end": 2714
+          },
+          "text": "e shows the unweighted regional average between countries of the percentage of population who received at least\none vaccine dose.\nC. The figure shows total confirmed purchased doses by country and vaccine candidate in percentage of the region’s population.\nThe last observation is February 15, 2021.\nD. The figure shows the total number of doses administered per 100 people in the total population of ECA countries versus the goal\nfixed by the European Commission to vaccinate 70 percent of the adult population in EU member states by the summer of 2021.",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "ceb4458471929e4cca22c35718701e3da0c6272adac2a5acab409363b3affab1",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "44",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 2160,
+            "source_offset_end": 3360
+          },
+          "text": "ke challenges, while sev -\neral economies in the European Union are aiming\nto vaccinate 70 percent of the adult population in\n2021 (ECDC 2021). Russia and Turkey, the region’s\nlargest economies, have stated targets of 60 per -\ncent of the adult population in 2021. Absent an\nacceleration in vaccine procurement and adminis -\ntration, however, ECA is likely to fall behind the rest\nof Europe (figure B1.4.2, panel D).\nDiffering vaccine timelines are expected to con-\ntribute to an uneven economic recovery in ECA,\nwith the countries that are rapidly deploying vac -\ncines projected to recover at a faster clip in 2021\nthan those with slower vaccine administration\n(figure B1.4.3, panel A). In the latter group, activ -\nity is anticipated to be dampened by extended\npandemic-related restrictions, which are likely to\npush the eventual recovery further into the forecast\nhorizon, particularly for countries that rely heavily\non international tourism. In all, upgrades to base -\nline forecasts for 2021 are smaller in countries with\nslower vaccine progress (figure B1.4.3, panel B).\nUnderlying vaccine risks to the region’s\nnear-term economic outlook\nThe highly uncertain evolution of the pandemic\nwill c",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q25",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "d058982e3a12ffb3d214d39e96da45b11ad1490c8a13d8d3f5831277e4081cc9",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "43",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 2160,
+            "source_offset_end": 2714
+          },
+          "text": "e shows the unweighted regional average between countries of the percentage of population who received at least\none vaccine dose.\nC. The figure shows total confirmed purchased doses by country and vaccine candidate in percentage of the region’s population.\nThe last observation is February 15, 2021.\nD. The figure shows the total number of doses administered per 100 people in the total population of ECA countries versus the goal\nfixed by the European Commission to vaccinate 70 percent of the adult population in EU member states by the summer of 2021.",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "2fdde16130606d68776cf5a6fbcbdd2d4138b2fc3f604c752ad13c67cef385fa",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "46",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1080,
+            "source_offset_end": 2280
+          },
+          "text": "casts for 2021 and 2022,\nrespectively.\nIn the upside scenario, economic activity\nresumes in the near term amid more effective man-\nagement of COVID-19 variants coupled with rapid\ndeployment of highly effective vaccines, allowing\ncountries to meet upper target inoculation rates of\naround 70 percent of adults. Relative to the base -\nline, vaccine administration rapidly accelerates and\nwidespread immunization is achieved across and\nwithin ECA’s economies in 2021. Widespread pub-\nlic education campaigns facilitate greater public\ncompliance with pandemic control policies, as well\nas ameliorate vaccine reluctance, allowing econo -\nmies to roll back stringent containment measures.\nAs social distancing eases and businesses resume,\nemployment is anticipated to lift while investor con-\nfidence improves, which should bolster a rebound\nin domestic demand. In this upside scenario, the\nprojected economic recovery in ECA would rise to\n4.2 percent in 2021 and 5.2 percent in 2022, or 0.6\nand 1.3 percentage points higher than the baseline\nforecasts for 2021 and 2022, respectively.\nFIGURE B1.4.5 Risks to the ECA outlook\na. GDP growth scenarios in ECA b. Vaccine reluctance, by country\n−4\n−2\n0\n2\n4\n6\n20",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "e3ff93f87fc8ca2b98114ae61a4af9ec841edd99b6f979fa7a2b2e99efd0d086",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "44",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1080,
+            "source_offset_end": 2280
+          },
+          "text": "lled out globally in 2021\nthrough the COVAX Facility, roughly 165 million\nare destined for the broader geographical zone of\nEurope (Gavi 2021). However, vaccine distribution\nremains a challenge—vaccine procurement in ECA\ntrails high-income Europe and falls short of the two\ndoses per person that is needed for most COVID-\n19 vaccines (figure B1.4.2, panel C).\nVaccine assumptions for the near-term\neconomic outlook in ECA\nThe regional outlook is predicated on a gradual\nrollout of vaccines in the first half of 2021, with\nvaccination gathering pace in the second half of\nthe year in ECA’s largest economies. Meanwhile,\nwidespread vaccine administration within other\nECA EMDEs is anticipated to lag by at least one\nto two quarters, as several countries await ship -\nment from the COVAX Facility or face bottlenecks\nrelated to the production, procurement, or deliv -\nery of vaccines secured through other agreements\n(Central Asia, Eastern Europe, and the Western\nBalkans). Target inoculation goals vary, with some\nECA EMDEs refraining from setting targets given\nprocurement and uptake challenges, while sev -\neral economies in the European Union are aiming\nto vaccinate 70 percent of the adult populati",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q21",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "f317d4a33b3eb2b16b78728925494a88c3be22fb45fa6b0cee22f1c76031658f",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "21",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Global Context",
+            "section_heading_page": 19,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  5\nrenewed weakness was concentrated in service sectors as governments opted for\ntargeted or less stringent lockdowns rather than economywide shutdowns. Ac -\ncordingly, resilience in industrial activity—which mirrored a recovery in global\ngoods trade—provided support, with output surpassing Consensus expectations\nin several economies in the fourth quarter of 2020 (figure 1.1, panel C). Various\neconomic indicators, including the Global Composite Purchasing Managers’ In -\ndex (PMI) and the Sentix index, pointed to firming activity in early 2021 as the\nnumber of daily new cases stabilized and vaccine deployment supported inves -\ntor sentiment. Although vaccination is underway, with about 5.3 percent of the\nglobal population having received at least one dose of the many available vac -\ncines, progress has been uneven across countries. While vaccinations are gather-\ning pace in advanced economies, doses have not yet been administered in about\nhalf of the emerging markets and developing economies (EMDEs) and in most\nlow-income countries by mid-March (figure 1.1, panel D).\nIn 2020, the U.S. economy contracted 3.5 perce",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "3296e3f495379d16f0107505c666c7b835ae98d89125d5e55f08dacd62e68c24",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "29",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 2400,
+            "source_offset_end": 3600
+          },
+          "text": "ountries were still under\nstrict social distancing measures while others had\nremoved restrictions on most activities. By fall,\nsome countries opened further, and others scaled\nback the reopening measures in light of the second\nwave of COVID-19 cases.\nThe sequence in which different social and\neconomic activities restart their normal operation\nis an important dimension of the reopening pro -\ncess. Figure B1.2.2 plots the share of countries that\nhad in place a specific type of nonpharmaceutical\nintervention at every point in time. Most countries\nshifted from having a full lockdown to a partial\nlockdown during the late spring of 2020 and then\nremoved lockdown measures altogether—keep -\ning in place school closures and restrictions on\npublic events. Schools were gradually reopened,\nand many countries also lifted the ban on public\nevents. By early September 2020, about 12 percent\nof countries were in full lockdown, 18 percent had\npartial lockdowns, schools remained fully closed\nin 20 percent, and restrictions on public events\nremain in about 50 percent of the countries.\nAnother important dimension of the reopening\nprocess is its timing in relation to the pandemic’s\nevolution. The reopen",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4ee5db1bb3779a5276ac78af889a434350d0402de08484fd9b6cedcb82b1a5a6",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "29",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": " experience with the reopening process\nafter the first wave of the pandemic can provide use-\nful guidance as countries embark on their second\nand future reopenings while the virus and its muta-\ntions continue to present a serious health threat.\nIn response to the first wave, most countries in\nEurope went into national lockdowns almost simul-\ntaneously in the second half of March 2020. The\nreopening policies of early summer 2020 did not\nfollow such a uniform script, however, with coun -\ntries following quite different reopening paths. To\nillustrate this, figure B1.2.1 plots the median values\nand 25th and 75th percentiles of the Government\nResponse Stringency Index and its distribution at\nevery point in time in 45 countries in Europe and\nCentral Asia. The Stringency Index represents an\naggregate of countries’ policy responses to the\npandemic and ranges from 0 (no restrictions on\neveryday activities) to 100 (complete lockdown\nof the country) (Hale et al. 2020). The difference\nbetween the 25th and 75th percentiles was at its\nminimum on April 11-12, 2020, when more than 90\npercent of the countries had implemented a full\nlockdown. That difference more than doubled by\nmid-June 2020—some c",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q22",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "53dbb7d5705fc7c84352add04e93dc3770cd64d560560c5462fd9439ea5a7bb8",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "33",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  17\nbenefited from host country macroeconomic support and a drawdown in savings\n(figure 1.4, panel D) (Dinarte et al. 2021; Quayyum and Kpodar 2020; ILO 2021).2\nWithin ECA, increases in the number of unemployed were particularly pro -\n2. There could be several explanations for the observed recovery of remittance flows in the\nsecond half of 2020 and early 2021. Some studies indicate that migrants might have drawn\non their saving to send money home during the pandemic, or that some migrants were able\nto access cash transfers offered by host country governments. Another relevant explanation\nfor ECA is a shift in flows from informal (unrecorded) hand-carrying to formal (recorded)\nremittance channels. The emerging studies (for example, Dinarte et al., 2021) indicate that\nthe mobility constraints that prevented travelers from carrying cash across borders made\nelectronic wire transfers the only option to remit. Because wire transfers are registered by\nthe central banks, many countries saw an increase in formal remittances over the past sev-\neral months. However, the impact of this compositional shift on the total amoun",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "986526621154d7451fceb7edd31f100825b3de1fd5c4bd21ab8fe5b657517784",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "32",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 2400,
+            "source_offset_end": 3600
+          },
+          "text": "\nof economic recovery. Specifically, their results\nshow that a higher level of trust in government is\nassociated with a faster recovery among countries\nthat carried out a gradual reopening process. The\nanalysis also shows that fear and anxiety about the\nspread of the pandemic may hinder the recovery\nof economic activity as countries reopen. There is\nsuggestive evidence that providing the population\nobjective information and data about the prog -\nress of the pandemic could be an effective policy\ninstrument in promoting faster recovery, although\ncausality is difficult to establish.\nThe findings have important policy implica -\ntions for the second wave of the COVID-19 pan -\ndemic that swept most of the world in late 2020.\nGiven the “pandemic fatigue” and growing public\nexhaustion and frustration with restrictions, public\nofficials in many countries were initially more reluc-\ntant to introduce strict interventions, fearing their\neconomic impact, although they quickly found\nthemselves with few other options as the second\nwave of the pandemic worsened. As countries start\ntheir second reopening process, Demirgüc-Kunt,\nLokshin, and Torre’s (2020) results suggest that a\ncareful, gradual, an",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "95ecd5e9407d44fc4d600fa46310dbeefd7c7b575b357b46605dd8e97cade006",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "32",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": " after the first peak of deaths\nbefore they start reopening, also matters. Open -\ning before the peak reduces electricity consump -\ntion relative to the predicted level, while delaying\nreopening past the peak leads to faster recovery.\nHowever, when this decision is modeled to be\nbased strictly on epidemiological considerations, it\nhas no effect on the path of economic recovery. The\nanalysis shows that countries that gradually lifted the\nstringency measures, rather than lifting them faster,\nexperienced a more robust economic recovery.\nTrust in government institutions is generally an\nimportant determinant of the effectiveness of poli-\ncies on economic outcomes. In this case, high lev -\nels of trust in government (and interpersonal trust)\nare likely to be associated with better compliance\nwith social distancing measures. Demirgüç-Kunt,\nLokshin, and Torre (2020) also explore the effects\nof trust in government and people’s perceptions\nabout the pandemic on the recovery process,\nusing data from the 2018 round of the European\nSocial Survey and the 2016 Life in Transition Survey.\nBOX 1.2\nThey find that governance, particularly trust in gov-\nernment institutions, is an essential determinant",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q23",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "beba9cda8e3fd16a1a6f5020fd7192d6d44cbd65c914ed6b3854a31eb8ac601a",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "38",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "reported head-\nline inflation that exceeded the upper inflation band in early 2021 (figure 1.7,\npanel B). As a result of inflationary pressures, roughly a third of ECA’s economies\nwere forced to abruptly hike policy interest rates in early 2021.\nFiscal support packages were announced in nearly all ECA economies, with\nseveral governments receiving aid from official sources, ramping up borrowing\nin debt markets, and prioritizing spending to bolster health care systems,\nstrengthen safety nets, support the private sector, and counter financial market\ndisruptions. Job retention and labor market support schemes were also imple -\nmented to sustain employment. Although the average fiscal response has been\nlarger in ECA than in most other EMDE regions, there is wide variation within\nFIGURE 1.6 Portfolio and FDI flows in ECA\nb. Foreign direct investment inflows\nby region, 2019 and 2020 a. ECA portfolio outflows\nPercent of GDP , accumulated\nweekly flows\n−1.4\n−1.2\n−1.0\n−0.8\n−0.6\n−0.4\n−0.2\n0.0\n05 10 15 20 25 30 35 40 45 50 55\nWeeks\nEMDEs ECA\n−42%\n−69%\n−12%\n−77%\n05 00 1,0001 ,500\nWorld\nAdvanced\neconomies\nEMDEs\nECA\n2020 2019\nUS$, billions\nSources: Institute of International Finance; UNCTAD; World",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "608afc79f523ce0412aaab4bb8b7abd06603ff5948ad1354d6ce3f562a0964e5",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "20",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Global Context",
+            "section_heading_page": 19,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "4  ● World Bank ECA Economic Update Spring 2021\nwould help mitigate diminishing fiscal support. After this year’s pickup, global\ngrowth was forecast to moderate to 3.8 percent in 2022—still above its potential\npace but weighed down by lasting damage from COVID-19 (figure 1.1, panel A).\nAt this rate, global per capita GDP would remain 4.4 percent below pre-pandemic\nprojections by 2022, reflecting the dampening effects of lingering risk aversion on\nthe demand side and of diminished physical and human capital accumulation on\nlabor productivity.\nA sharp rise in daily new COVID-19 cases in late 2020 softened the incipient\nrecovery in global activity (figure 1.1, panel B). For several economies, however,\nSources: Consensus Economics; Haver Analytics; Our World in Data (database); World Bank.\nNote: AEs = advanced economies; EMDEs = emerging markets and developing economies; FCS = fragile and conflict-affected situations;\nGDP = gross domestic product; LICs = low-income countries.\nA. The shaded area indicates forecasts. Data for 2020 are estimates. Aggregate growth rates were calculated using GDP weights at 2010 prices and\nmarket exchange rates.\nB. The figure shows the seven-day moving aver",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "df228491a3da917bb1a63a23d26e119b2e57269abc281d063baa862f6702c496",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "38",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "22  ● World Bank ECA Economic Update Spring 2021\nelevated relative to a year ago, and in some cases, they spiked again due to policy\nuncertainty, geopolitical tensions, or external financing pressures. Some ECA\nEMDEs subsequently faced external financing pressures, including from the col-\nlapse in FDI inflows, but were partly able to offset these tensions by tapping into\nEurobond markets and bilateral funding from Russia.\nMonetary policy became more expansionary as economic conditions deterio-\nrated in 2020. Several central banks intervened in foreign exchange markets to\nstabilize their currencies and mitigate volatility (Croatia, Kazakhstan, Kyrgyz\nRepublic, Serbia, and Turkey), while others tapped sovereign wealth funds\n(Azerbaijan and Kazakhstan). Some countries have used unconventional poli -\ncies, such as asset purchases (Croatia, Hungary, Poland, Romania, and Turkey)\n(figure 1.7, panel A). Recent currency depreciation and capacity constraints have\nput further upward pressure on inflation and reduced the scope for additional\npolicy rate cuts, especially for countries with inflation near or above target ranges.\nOf the 17 ECA economies with stated inflation targets, nearly half ",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q24",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "4992e0b06f9285fe28d28e7ef1895a35dba4d8cb2ff6e03970aa4a554dbff231",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "41",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "take accelerates, the Ministry of\nHealth’s target of vaccinating 60 percent of adults by mid-2021 could remain a\ndistant goal. Internationally, Sputnik V had been approved in about 50 countries\nas of mid-March.\nThe contraction in output in 2020 was shallower than anticipated, with the\nRussian economy shrinking -3.1 percent compared with the January estimate of\n-4 percent (table 1.2). Despite high compliance with OPEC+ production cuts, in -\ndustrial activity was more resilient than had been assumed, as policy makers\nFIGURE 1.8 GDP trends in ECA\nb. Long-term investment forecasts\na. GDP per capita growth gaps with\npre-pandemic projections by 2022\n−10\n−8\n−6\n−4\n−2\n0\nEE SCC WBKC AC EE CA\nRussian\nFederationT urkey\nPercent\nPercent\n0\n2\n4\n6\n8\n2021 2022 2023 2024 2025 2026 2027 2028\nTurkey Russian FederationECA Central Europe\nSources: Consensus Economics; World Bank.\nNote: CA = Central Asia; CE = Central Europe; ECA = Europe and Central Asia; EE = Eastern Europe; EMDEs = emerging markets and developing\neconomies; GDP = gross domestic product; IMF = International Monetary Fund; SCC = South Caucasus; WBK = Western Balkans.\nA. The figure shows the gaps between the current projections and the for",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "69f59a8fcf2ba143fd82c0004b8ce05703d2992067383eccee144e4e1f72f94d",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "46",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "ctive man-\nagement of COVID-19 variants coupled with rapid\ndeployment of highly effective vaccines, allowing\ncountries to meet upper target inoculation rates of\naround 70 percent of adults. Relative to the base -\nline, vaccine administration rapidly accelerates and\nwidespread immunization is achieved across and\nwithin ECA’s economies in 2021. Widespread pub-\nlic education campaigns facilitate greater public\ncompliance with pandemic control policies, as well\nas ameliorate vaccine reluctance, allowing econo -\nmies to roll back stringent containment measures.\nAs social distancing eases and businesses resume,\nemployment is anticipated to lift while investor con-\nfidence improves, which should bolster a rebound\nin domestic demand. In this upside scenario, the\nprojected economic recovery in ECA would rise to\n4.2 percent in 2021 and 5.2 percent in 2022, or 0.6\nand 1.3 percentage points higher than the baseline\nforecasts for 2021 and 2022, respectively.\nFIGURE B1.4.5 Risks to the ECA outlook\na. GDP growth scenarios in ECA b. Vaccine reluctance, by country\n−4\n−2\n0\n2\n4\n6\n2020 2021 2022\nBaseline scenario Downside scenarioU pside scenario\nPercent\n05 01 00\nRUS March 21\nHungary\nBiH\nMontenegro\nUk",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "8d76e3f552f6b84a8df0503b4c6411b1048d8fd8200a4d9217ef0cd8b48b1956",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "46",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 2400,
+            "source_offset_end": 3240
+          },
+          "text": "raine\nRUS Dec 20\nRomania\nCroatia\nTurkey\nPoland\nDoes not plan to get vaccinated\nNeutral Plans to get vaccinated\nPercent of answers\nSources: Guenette and Yamazaki (2021); Levada Center; Marcec, Matja, and Likic (2021); World Bank.\nNote: BiH = Bosnia and Herzegovina; ECA = Europe and Central Asia; GDP = gross domestic product; RUS = Russian Federation.\nA. The bars denote the latest forecast; diamonds correspond to the percent difference between the latest projected levels of GDP\ngrowth and those in the January 2020 Global Economic Prospects report. GDP-weighted averages (at 2010 prices and market ex-\nchange rates).\nB. The figure shows the percentage of people willing/planning to get a Sars CoV 2 vaccine. “Neutral” refers to the percentage of\npeople not providing an opinion or declaring to have already received the COVID-19 vaccine.",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q25",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "f6bf5044991f65ae271b7aeafce1ed290d34d9aa1bd06a233057fc9b6dd95aaa",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "44",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": " of\nEurope (Gavi 2021). However, vaccine distribution\nremains a challenge—vaccine procurement in ECA\ntrails high-income Europe and falls short of the two\ndoses per person that is needed for most COVID-\n19 vaccines (figure B1.4.2, panel C).\nVaccine assumptions for the near-term\neconomic outlook in ECA\nThe regional outlook is predicated on a gradual\nrollout of vaccines in the first half of 2021, with\nvaccination gathering pace in the second half of\nthe year in ECA’s largest economies. Meanwhile,\nwidespread vaccine administration within other\nECA EMDEs is anticipated to lag by at least one\nto two quarters, as several countries await ship -\nment from the COVAX Facility or face bottlenecks\nrelated to the production, procurement, or deliv -\nery of vaccines secured through other agreements\n(Central Asia, Eastern Europe, and the Western\nBalkans). Target inoculation goals vary, with some\nECA EMDEs refraining from setting targets given\nprocurement and uptake challenges, while sev -\neral economies in the European Union are aiming\nto vaccinate 70 percent of the adult population in\n2021 (ECDC 2021). Russia and Turkey, the region’s\nlargest economies, have stated targets of 60 per -\ncent of the a",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4992e0b06f9285fe28d28e7ef1895a35dba4d8cb2ff6e03970aa4a554dbff231",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "41",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "take accelerates, the Ministry of\nHealth’s target of vaccinating 60 percent of adults by mid-2021 could remain a\ndistant goal. Internationally, Sputnik V had been approved in about 50 countries\nas of mid-March.\nThe contraction in output in 2020 was shallower than anticipated, with the\nRussian economy shrinking -3.1 percent compared with the January estimate of\n-4 percent (table 1.2). Despite high compliance with OPEC+ production cuts, in -\ndustrial activity was more resilient than had been assumed, as policy makers\nFIGURE 1.8 GDP trends in ECA\nb. Long-term investment forecasts\na. GDP per capita growth gaps with\npre-pandemic projections by 2022\n−10\n−8\n−6\n−4\n−2\n0\nEE SCC WBKC AC EE CA\nRussian\nFederationT urkey\nPercent\nPercent\n0\n2\n4\n6\n8\n2021 2022 2023 2024 2025 2026 2027 2028\nTurkey Russian FederationECA Central Europe\nSources: Consensus Economics; World Bank.\nNote: CA = Central Asia; CE = Central Europe; ECA = Europe and Central Asia; EE = Eastern Europe; EMDEs = emerging markets and developing\neconomies; GDP = gross domestic product; IMF = International Monetary Fund; SCC = South Caucasus; WBK = Western Balkans.\nA. The figure shows the gaps between the current projections and the for",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "69f59a8fcf2ba143fd82c0004b8ce05703d2992067383eccee144e4e1f72f94d",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "46",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "ctive man-\nagement of COVID-19 variants coupled with rapid\ndeployment of highly effective vaccines, allowing\ncountries to meet upper target inoculation rates of\naround 70 percent of adults. Relative to the base -\nline, vaccine administration rapidly accelerates and\nwidespread immunization is achieved across and\nwithin ECA’s economies in 2021. Widespread pub-\nlic education campaigns facilitate greater public\ncompliance with pandemic control policies, as well\nas ameliorate vaccine reluctance, allowing econo -\nmies to roll back stringent containment measures.\nAs social distancing eases and businesses resume,\nemployment is anticipated to lift while investor con-\nfidence improves, which should bolster a rebound\nin domestic demand. In this upside scenario, the\nprojected economic recovery in ECA would rise to\n4.2 percent in 2021 and 5.2 percent in 2022, or 0.6\nand 1.3 percentage points higher than the baseline\nforecasts for 2021 and 2022, respectively.\nFIGURE B1.4.5 Risks to the ECA outlook\na. GDP growth scenarios in ECA b. Vaccine reluctance, by country\n−4\n−2\n0\n2\n4\n6\n2020 2021 2022\nBaseline scenario Downside scenarioU pside scenario\nPercent\n05 01 00\nRUS March 21\nHungary\nBiH\nMontenegro\nUk",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q21",
+      "filter": {
+        "section": "Recent Developments"
+      },
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "3296e3f495379d16f0107505c666c7b835ae98d89125d5e55f08dacd62e68c24",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "29",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 2400,
+            "source_offset_end": 3600
+          },
+          "text": "ountries were still under\nstrict social distancing measures while others had\nremoved restrictions on most activities. By fall,\nsome countries opened further, and others scaled\nback the reopening measures in light of the second\nwave of COVID-19 cases.\nThe sequence in which different social and\neconomic activities restart their normal operation\nis an important dimension of the reopening pro -\ncess. Figure B1.2.2 plots the share of countries that\nhad in place a specific type of nonpharmaceutical\nintervention at every point in time. Most countries\nshifted from having a full lockdown to a partial\nlockdown during the late spring of 2020 and then\nremoved lockdown measures altogether—keep -\ning in place school closures and restrictions on\npublic events. Schools were gradually reopened,\nand many countries also lifted the ban on public\nevents. By early September 2020, about 12 percent\nof countries were in full lockdown, 18 percent had\npartial lockdowns, schools remained fully closed\nin 20 percent, and restrictions on public events\nremain in about 50 percent of the countries.\nAnother important dimension of the reopening\nprocess is its timing in relation to the pandemic’s\nevolution. The reopen",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4ee5db1bb3779a5276ac78af889a434350d0402de08484fd9b6cedcb82b1a5a6",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "29",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": " experience with the reopening process\nafter the first wave of the pandemic can provide use-\nful guidance as countries embark on their second\nand future reopenings while the virus and its muta-\ntions continue to present a serious health threat.\nIn response to the first wave, most countries in\nEurope went into national lockdowns almost simul-\ntaneously in the second half of March 2020. The\nreopening policies of early summer 2020 did not\nfollow such a uniform script, however, with coun -\ntries following quite different reopening paths. To\nillustrate this, figure B1.2.1 plots the median values\nand 25th and 75th percentiles of the Government\nResponse Stringency Index and its distribution at\nevery point in time in 45 countries in Europe and\nCentral Asia. The Stringency Index represents an\naggregate of countries’ policy responses to the\npandemic and ranges from 0 (no restrictions on\neveryday activities) to 100 (complete lockdown\nof the country) (Hale et al. 2020). The difference\nbetween the 25th and 75th percentiles was at its\nminimum on April 11-12, 2020, when more than 90\npercent of the countries had implemented a full\nlockdown. That difference more than doubled by\nmid-June 2020—some c",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "1e22cea34cbb99679fb4d2ea6d65dee5a8e32ee2a96e01978a6de1646d5e0240",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "37",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 3600,
+            "source_offset_end": 3742
+          },
+          "text": "n extractive investment (figure 1.6, panel B) (UNCTAD 2021b). De -\nspite retreating somewhat since the onset of the pandemic, bond spreads are",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q22",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "53dbb7d5705fc7c84352add04e93dc3770cd64d560560c5462fd9439ea5a7bb8",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "33",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  17\nbenefited from host country macroeconomic support and a drawdown in savings\n(figure 1.4, panel D) (Dinarte et al. 2021; Quayyum and Kpodar 2020; ILO 2021).2\nWithin ECA, increases in the number of unemployed were particularly pro -\n2. There could be several explanations for the observed recovery of remittance flows in the\nsecond half of 2020 and early 2021. Some studies indicate that migrants might have drawn\non their saving to send money home during the pandemic, or that some migrants were able\nto access cash transfers offered by host country governments. Another relevant explanation\nfor ECA is a shift in flows from informal (unrecorded) hand-carrying to formal (recorded)\nremittance channels. The emerging studies (for example, Dinarte et al., 2021) indicate that\nthe mobility constraints that prevented travelers from carrying cash across borders made\nelectronic wire transfers the only option to remit. Because wire transfers are registered by\nthe central banks, many countries saw an increase in formal remittances over the past sev-\neral months. However, the impact of this compositional shift on the total amoun",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "986526621154d7451fceb7edd31f100825b3de1fd5c4bd21ab8fe5b657517784",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "32",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 2400,
+            "source_offset_end": 3600
+          },
+          "text": "\nof economic recovery. Specifically, their results\nshow that a higher level of trust in government is\nassociated with a faster recovery among countries\nthat carried out a gradual reopening process. The\nanalysis also shows that fear and anxiety about the\nspread of the pandemic may hinder the recovery\nof economic activity as countries reopen. There is\nsuggestive evidence that providing the population\nobjective information and data about the prog -\nress of the pandemic could be an effective policy\ninstrument in promoting faster recovery, although\ncausality is difficult to establish.\nThe findings have important policy implica -\ntions for the second wave of the COVID-19 pan -\ndemic that swept most of the world in late 2020.\nGiven the “pandemic fatigue” and growing public\nexhaustion and frustration with restrictions, public\nofficials in many countries were initially more reluc-\ntant to introduce strict interventions, fearing their\neconomic impact, although they quickly found\nthemselves with few other options as the second\nwave of the pandemic worsened. As countries start\ntheir second reopening process, Demirgüc-Kunt,\nLokshin, and Torre’s (2020) results suggest that a\ncareful, gradual, an",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "95ecd5e9407d44fc4d600fa46310dbeefd7c7b575b357b46605dd8e97cade006",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "32",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": " after the first peak of deaths\nbefore they start reopening, also matters. Open -\ning before the peak reduces electricity consump -\ntion relative to the predicted level, while delaying\nreopening past the peak leads to faster recovery.\nHowever, when this decision is modeled to be\nbased strictly on epidemiological considerations, it\nhas no effect on the path of economic recovery. The\nanalysis shows that countries that gradually lifted the\nstringency measures, rather than lifting them faster,\nexperienced a more robust economic recovery.\nTrust in government institutions is generally an\nimportant determinant of the effectiveness of poli-\ncies on economic outcomes. In this case, high lev -\nels of trust in government (and interpersonal trust)\nare likely to be associated with better compliance\nwith social distancing measures. Demirgüç-Kunt,\nLokshin, and Torre (2020) also explore the effects\nof trust in government and people’s perceptions\nabout the pandemic on the recovery process,\nusing data from the 2018 round of the European\nSocial Survey and the 2016 Life in Transition Survey.\nBOX 1.2\nThey find that governance, particularly trust in gov-\nernment institutions, is an essential determinant",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q23",
+      "filter": {
+        "section": "Recent Developments"
+      },
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "beba9cda8e3fd16a1a6f5020fd7192d6d44cbd65c914ed6b3854a31eb8ac601a",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "38",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "reported head-\nline inflation that exceeded the upper inflation band in early 2021 (figure 1.7,\npanel B). As a result of inflationary pressures, roughly a third of ECA’s economies\nwere forced to abruptly hike policy interest rates in early 2021.\nFiscal support packages were announced in nearly all ECA economies, with\nseveral governments receiving aid from official sources, ramping up borrowing\nin debt markets, and prioritizing spending to bolster health care systems,\nstrengthen safety nets, support the private sector, and counter financial market\ndisruptions. Job retention and labor market support schemes were also imple -\nmented to sustain employment. Although the average fiscal response has been\nlarger in ECA than in most other EMDE regions, there is wide variation within\nFIGURE 1.6 Portfolio and FDI flows in ECA\nb. Foreign direct investment inflows\nby region, 2019 and 2020 a. ECA portfolio outflows\nPercent of GDP , accumulated\nweekly flows\n−1.4\n−1.2\n−1.0\n−0.8\n−0.6\n−0.4\n−0.2\n0.0\n05 10 15 20 25 30 35 40 45 50 55\nWeeks\nEMDEs ECA\n−42%\n−69%\n−12%\n−77%\n05 00 1,0001 ,500\nWorld\nAdvanced\neconomies\nEMDEs\nECA\n2020 2019\nUS$, billions\nSources: Institute of International Finance; UNCTAD; World",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "df228491a3da917bb1a63a23d26e119b2e57269abc281d063baa862f6702c496",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "38",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "22  ● World Bank ECA Economic Update Spring 2021\nelevated relative to a year ago, and in some cases, they spiked again due to policy\nuncertainty, geopolitical tensions, or external financing pressures. Some ECA\nEMDEs subsequently faced external financing pressures, including from the col-\nlapse in FDI inflows, but were partly able to offset these tensions by tapping into\nEurobond markets and bilateral funding from Russia.\nMonetary policy became more expansionary as economic conditions deterio-\nrated in 2020. Several central banks intervened in foreign exchange markets to\nstabilize their currencies and mitigate volatility (Croatia, Kazakhstan, Kyrgyz\nRepublic, Serbia, and Turkey), while others tapped sovereign wealth funds\n(Azerbaijan and Kazakhstan). Some countries have used unconventional poli -\ncies, such as asset purchases (Croatia, Hungary, Poland, Romania, and Turkey)\n(figure 1.7, panel A). Recent currency depreciation and capacity constraints have\nput further upward pressure on inflation and reduced the scope for additional\npolicy rate cuts, especially for countries with inflation near or above target ranges.\nOf the 17 ECA economies with stated inflation targets, nearly half ",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "83adc3133841bb40a9c00610aa622614b73931968a3f83e5d5558ac68952423b",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "39",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Recent Developments",
+            "section_heading_page": 28,
+            "source_offset_start": 0,
+            "source_offset_end": 1200
+          },
+          "text": "Chapter 1: The Continuing COVID-19 Pandemic and the Economic Outlook ●  23\nthe region (figure 1.7, panel C). Some ECA economies have announced new fiscal\nactions or extended the previous temporary measures, while others are contem-\nplating new legislation. However, many economies will not be able to maintain\nthe level of expenditures needed to support the recovery in 2021–22, which\ncould force some countries into premature fiscal tightening. In all, the fiscal\nresponse and contraction in output is expected to raise average debt levels to\nover 50 percent of GDP by 2022—roughly 9 percentage points higher than in\n2019 (figure 1.7, panel D).\nSources: Bank for International Settlements; Bloomberg; Haver Analytics; IMF; Kose et al. 2020; World Bank.\nNote: CA = Central Asia; CE = Central Europe; ECA = Europe and Central Asia; EE = Eastern Europe; EMDEs = emerging markets and developing\neconomies; GDP = gross domestic product; IMF = International Monetary Fund; SCC = South Caucasus; WBK = Western Balkans\nA. Blue bars denote unweighted regional averages of announced central bank asset purchase programs, expressed relative to nominal local curren-\ncy GDP in 2019. Yellow whiskers indicate the",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q24",
+      "filter": {},
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "4992e0b06f9285fe28d28e7ef1895a35dba4d8cb2ff6e03970aa4a554dbff231",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "41",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "take accelerates, the Ministry of\nHealth’s target of vaccinating 60 percent of adults by mid-2021 could remain a\ndistant goal. Internationally, Sputnik V had been approved in about 50 countries\nas of mid-March.\nThe contraction in output in 2020 was shallower than anticipated, with the\nRussian economy shrinking -3.1 percent compared with the January estimate of\n-4 percent (table 1.2). Despite high compliance with OPEC+ production cuts, in -\ndustrial activity was more resilient than had been assumed, as policy makers\nFIGURE 1.8 GDP trends in ECA\nb. Long-term investment forecasts\na. GDP per capita growth gaps with\npre-pandemic projections by 2022\n−10\n−8\n−6\n−4\n−2\n0\nEE SCC WBKC AC EE CA\nRussian\nFederationT urkey\nPercent\nPercent\n0\n2\n4\n6\n8\n2021 2022 2023 2024 2025 2026 2027 2028\nTurkey Russian FederationECA Central Europe\nSources: Consensus Economics; World Bank.\nNote: CA = Central Asia; CE = Central Europe; ECA = Europe and Central Asia; EE = Eastern Europe; EMDEs = emerging markets and developing\neconomies; GDP = gross domestic product; IMF = International Monetary Fund; SCC = South Caucasus; WBK = Western Balkans.\nA. The figure shows the gaps between the current projections and the for",
+          "grounding_label_0_to_2": 1,
+          "reason": "Related evidence is present but is incomplete for the question (the required detail or condition is missing); metadata was verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "69f59a8fcf2ba143fd82c0004b8ce05703d2992067383eccee144e4e1f72f94d",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "46",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "ctive man-\nagement of COVID-19 variants coupled with rapid\ndeployment of highly effective vaccines, allowing\ncountries to meet upper target inoculation rates of\naround 70 percent of adults. Relative to the base -\nline, vaccine administration rapidly accelerates and\nwidespread immunization is achieved across and\nwithin ECA’s economies in 2021. Widespread pub-\nlic education campaigns facilitate greater public\ncompliance with pandemic control policies, as well\nas ameliorate vaccine reluctance, allowing econo -\nmies to roll back stringent containment measures.\nAs social distancing eases and businesses resume,\nemployment is anticipated to lift while investor con-\nfidence improves, which should bolster a rebound\nin domestic demand. In this upside scenario, the\nprojected economic recovery in ECA would rise to\n4.2 percent in 2021 and 5.2 percent in 2022, or 0.6\nand 1.3 percentage points higher than the baseline\nforecasts for 2021 and 2022, respectively.\nFIGURE B1.4.5 Risks to the ECA outlook\na. GDP growth scenarios in ECA b. Vaccine reluctance, by country\n−4\n−2\n0\n2\n4\n6\n2020 2021 2022\nBaseline scenario Downside scenarioU pside scenario\nPercent\n05 01 00\nRUS March 21\nHungary\nBiH\nMontenegro\nUk",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "8d76e3f552f6b84a8df0503b4c6411b1048d8fd8200a4d9217ef0cd8b48b1956",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "46",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 2400,
+            "source_offset_end": 3240
+          },
+          "text": "raine\nRUS Dec 20\nRomania\nCroatia\nTurkey\nPoland\nDoes not plan to get vaccinated\nNeutral Plans to get vaccinated\nPercent of answers\nSources: Guenette and Yamazaki (2021); Levada Center; Marcec, Matja, and Likic (2021); World Bank.\nNote: BiH = Bosnia and Herzegovina; ECA = Europe and Central Asia; GDP = gross domestic product; RUS = Russian Federation.\nA. The bars denote the latest forecast; diamonds correspond to the percent difference between the latest projected levels of GDP\ngrowth and those in the January 2020 Global Economic Prospects report. GDP-weighted averages (at 2010 prices and market ex-\nchange rates).\nB. The figure shows the percentage of people willing/planning to get a Sars CoV 2 vaccine. “Neutral” refers to the percentage of\npeople not providing an opinion or declaring to have already received the COVID-19 vaccine.",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q25",
+      "filter": {
+        "section": "Regional Outlook"
+      },
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "f6bf5044991f65ae271b7aeafce1ed290d34d9aa1bd06a233057fc9b6dd95aaa",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "44",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": " of\nEurope (Gavi 2021). However, vaccine distribution\nremains a challenge—vaccine procurement in ECA\ntrails high-income Europe and falls short of the two\ndoses per person that is needed for most COVID-\n19 vaccines (figure B1.4.2, panel C).\nVaccine assumptions for the near-term\neconomic outlook in ECA\nThe regional outlook is predicated on a gradual\nrollout of vaccines in the first half of 2021, with\nvaccination gathering pace in the second half of\nthe year in ECA’s largest economies. Meanwhile,\nwidespread vaccine administration within other\nECA EMDEs is anticipated to lag by at least one\nto two quarters, as several countries await ship -\nment from the COVAX Facility or face bottlenecks\nrelated to the production, procurement, or deliv -\nery of vaccines secured through other agreements\n(Central Asia, Eastern Europe, and the Western\nBalkans). Target inoculation goals vary, with some\nECA EMDEs refraining from setting targets given\nprocurement and uptake challenges, while sev -\neral economies in the European Union are aiming\nto vaccinate 70 percent of the adult population in\n2021 (ECDC 2021). Russia and Turkey, the region’s\nlargest economies, have stated targets of 60 per -\ncent of the a",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4992e0b06f9285fe28d28e7ef1895a35dba4d8cb2ff6e03970aa4a554dbff231",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "41",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "take accelerates, the Ministry of\nHealth’s target of vaccinating 60 percent of adults by mid-2021 could remain a\ndistant goal. Internationally, Sputnik V had been approved in about 50 countries\nas of mid-March.\nThe contraction in output in 2020 was shallower than anticipated, with the\nRussian economy shrinking -3.1 percent compared with the January estimate of\n-4 percent (table 1.2). Despite high compliance with OPEC+ production cuts, in -\ndustrial activity was more resilient than had been assumed, as policy makers\nFIGURE 1.8 GDP trends in ECA\nb. Long-term investment forecasts\na. GDP per capita growth gaps with\npre-pandemic projections by 2022\n−10\n−8\n−6\n−4\n−2\n0\nEE SCC WBKC AC EE CA\nRussian\nFederationT urkey\nPercent\nPercent\n0\n2\n4\n6\n8\n2021 2022 2023 2024 2025 2026 2027 2028\nTurkey Russian FederationECA Central Europe\nSources: Consensus Economics; World Bank.\nNote: CA = Central Asia; CE = Central Europe; ECA = Europe and Central Asia; EE = Eastern Europe; EMDEs = emerging markets and developing\neconomies; GDP = gross domestic product; IMF = International Monetary Fund; SCC = South Caucasus; WBK = Western Balkans.\nA. The figure shows the gaps between the current projections and the for",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "69f59a8fcf2ba143fd82c0004b8ce05703d2992067383eccee144e4e1f72f94d",
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "46",
+          "source": "World Bank ECA Economic Update, Spring 2021 (ISBN 978-1-4648-1698-7)",
+          "metadata": {
+            "title": "Europe and Central Asia Economic Update, Spring 2021: Data, Digitalization, and Governance",
+            "publication_year": 2021,
+            "document_type": "economic_update",
+            "section": "Regional Outlook",
+            "section_heading_page": 40,
+            "source_offset_start": 1200,
+            "source_offset_end": 2400
+          },
+          "text": "ctive man-\nagement of COVID-19 variants coupled with rapid\ndeployment of highly effective vaccines, allowing\ncountries to meet upper target inoculation rates of\naround 70 percent of adults. Relative to the base -\nline, vaccine administration rapidly accelerates and\nwidespread immunization is achieved across and\nwithin ECA’s economies in 2021. Widespread pub-\nlic education campaigns facilitate greater public\ncompliance with pandemic control policies, as well\nas ameliorate vaccine reluctance, allowing econo -\nmies to roll back stringent containment measures.\nAs social distancing eases and businesses resume,\nemployment is anticipated to lift while investor con-\nfidence improves, which should bolster a rebound\nin domestic demand. In this upside scenario, the\nprojected economic recovery in ECA would rise to\n4.2 percent in 2021 and 5.2 percent in 2022, or 0.6\nand 1.3 percentage points higher than the baseline\nforecasts for 2021 and 2022, respectively.\nFIGURE B1.4.5 Risks to the ECA outlook\na. GDP growth scenarios in ECA b. Vaccine reluctance, by country\n−4\n−2\n0\n2\n4\n6\n2020 2021 2022\nBaseline scenario Downside scenarioU pside scenario\nPercent\n05 01 00\nRUS March 21\nHungary\nBiH\nMontenegro\nUk",
+          "grounding_label_0_to_2": 0,
+          "reason": "No answer-bearing evidence in this hit; source, page, section, and offsets were verified against the corpus snapshot.",
+          "metadata_correct": true
+        }
+      ]
+    }
+  ],
+  "grader_note": "AI-assisted rubric-based prelabels reviewed against saved chunks and gold evidence; not an independent human judgment. Student should confirm subjective coherence and grounding labels before submission.",
+  "coherence_summary": {
+    "A": {
+      "numerator": 10,
+      "denominator": 10,
+      "mean": 1.0
+    },
+    "B": {
+      "numerator": 10,
+      "denominator": 10,
+      "mean": 1.0
+    },
+    "C": {
+      "numerator": 10,
+      "denominator": 10,
+      "mean": 1.0
+    }
+  }
+}

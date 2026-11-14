@@ -1,65 +1,49 @@
-# Starter · PostgreSQL + pgvector
+# Day 06 — Implemented Qdrant pipeline
 
-Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; các file trong `src/` là **khung pseudocode có TODO**, chưa đọc tài liệu, tạo embedding, lưu vector hay chạy benchmark. Bạn cần tự hiện thực. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
+This workspace implements PDF ingestion, chunking, local embeddings, persistent vector storage, metadata filtering, and A/B/C evaluation. The original PostgreSQL + pgvector files are starter material; the active pipeline uses **Qdrant server in Docker**, not PostgreSQL.
 
-## Cấu trúc
+## Requirements and setup
 
-```text
-starter/
-├── docker-compose.yml     # PostgreSQL 16 + pgvector, chỉ mở cổng local
-├── init.sql               # bật extension khi tạo database mới
-├── requirements.txt       # psycopg, pypdf và python-dotenv
-├── .env.example           # cấu hình mẫu; copy thành .env
-├── scripts/check_setup.py # kiểm tra kết nối và extension (đã chạy được)
-├── src/
-│   ├── models.py          # cấu trúc dữ liệu mẫu
-│   ├── ingestion.py       # TODO: đọc / chuẩn hóa tài liệu
-│   ├── chunking.py        # TODO: chia chunk
-│   ├── embeddings.py      # TODO: chọn model API hoặc local
-│   ├── store.py           # TODO: lưu vector, metadata và filter
-│   ├── evaluation.py      # TODO: chấm truy xuất, lưu trace
-│   └── run.py             # TODO: kết nối các bước thành pipeline
-├── data/                  # bạn tự chuẩn bị corpus được phép sử dụng
-└── results/               # lưu kết quả của bạn
+The verified environment is Python 3.14, Docker Engine/Compose, and the dependencies in `requirements.txt`. Run these PowerShell commands from the repository root. Create `.venv314` only if it does not already exist:
+
+```powershell
+if (-not (Test-Path .venv314)) { py -3.14 -m venv .venv314 }
+& .\.venv314\Scripts\python.exe -m pip install -r starter\requirements.txt
+if (-not (Test-Path starter\.env)) { Copy-Item starter\.env.example starter\.env }
+docker compose -f starter\docker-compose.yml -p day06_qdrant up -d --wait
 ```
 
-## 1. Cài và kiểm tra database
+`.env.example` contains only the local Qdrant URL and local embedding model; no API key is required. Keep any local `.env` private.
 
-Cần Docker Desktop hoặc Docker Engine + Compose, Python **3.11–3.14**, và mạng để tải image/dependencies lần đầu. Các lệnh sau chạy từ thư mục `starter/`:
+## Corpus and benchmark
 
-```bash
-cd starter
-python3 -m venv .venv
+- `data/corpus/world_bank_eca_spring_2021_pages.jsonl` is the normalized snapshot of physical PDF pages 19–48 (30 content pages).
+- `data/manifest.json` records the source, CC BY 3.0 IGO attribution, PDF and snapshot hashes, page selection, and section metadata.
+- `data/benchmark.json` contains 15 dev and 5 replacement test questions with evidence quotes. It records that the replacement test was prepared after a preliminary run was inspected; see its revision note before interpreting the holdout.
+- The pipeline reads the snapshot and does not need the original PDF. To recreate it, provide the licensed source PDF through `WORLD_BANK_PDF` and run `& .\.venv314\Scripts\python.exe -m starter.scripts.prepare_corpus` from the repository root. The script refuses conflicting existing outputs; do not delete corpus files to force a rerun.
+
+## Run tests and A/B/C
+
+```powershell
+& .\.venv314\Scripts\python.exe -m unittest discover -s starter\tests -v
 ```
 
-Kích hoạt `.venv`: macOS/Linux dùng `source .venv/bin/activate`; Windows PowerShell dùng `.venv\Scripts\Activate.ps1`. Sau đó:
+Start Qdrant as shown above, then direct each run to a **new** results directory to preserve earlier evidence:
 
-```bash
-python -m pip install -r requirements.txt
-# macOS/Linux: cp .env.example .env
-# Windows PowerShell: Copy-Item .env.example .env
-docker compose -p day6_student_starter up -d --wait
-python scripts/check_setup.py
+```powershell
+$env:DAY6_RESULTS_DIR = Join-Path (Get-Location) 'starter\results\my-run'
+if (Test-Path $env:DAY6_RESULTS_DIR) { throw 'Choose a new results directory' }
+& .\.venv314\Scripts\python.exe -m starter.src.run
 ```
 
-Kỳ vọng: hiện tên database, phiên bản PostgreSQL và pgvector, sau đó `Setup OK`. Đây **chỉ là kiểm tra hạ tầng**, không phải kết quả benchmark. Docker dùng cổng `127.0.0.1:55433` và mật khẩu cố định **chỉ dùng local cho lab**; nếu cổng bận, sửa đồng thời port trong `docker-compose.yml` và `DATABASE_URL` trong `.env`. `init.sql` chỉ chạy khi volume mới được tạo; nếu database sẵn có chưa bật extension, xem log Docker và kiểm tra cấu hình thay vì xóa volume chứa dữ liệu.
+The run validates benchmark evidence before retrieval, ingests all three strategies, and writes metrics, query latency, top-3 traces, resource statistics, and audit candidates. Current latency measures the Qdrant search call only; query embedding time is not included.
 
-Dừng container nhưng giữ dữ liệu:
+## Storage safety
 
-```bash
-docker compose -p day6_student_starter stop
+Qdrant is bound to `127.0.0.1:6333` and persists data in Docker volume `day06_qdrant_data`. To stop it without deleting data:
+
+```powershell
+docker compose -f starter\docker-compose.yml -p day06_qdrant stop
 ```
 
-## 2. Chọn embedding model
-
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
-
-## 3. Hoàn thiện pipeline
-
-1. Đặt corpus vào `data/` hoặc cung cấp manifest/hướng dẫn truy cập. Đọc [GUIDE.md](../GUIDE.md) về **30 trang nội dung**, quyền dữ liệu và metadata.
-2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
-3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
-4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
-
-Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.
+Do not use `down -v` unless you explicitly intend to delete the persistent vector data. The verified final run is in `results/final_v3/`; preliminary runs are retained separately. The audit file clearly marks subjective labels as AI-assisted and requiring student confirmation.

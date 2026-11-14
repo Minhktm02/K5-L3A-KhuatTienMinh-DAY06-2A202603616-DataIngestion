@@ -10,7 +10,11 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 
 ## Bắt đầu nhanh
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+Dùng [starter](starter/README.md) để xem baseline PostgreSQL + pgvector và hướng dẫn pipeline Qdrant đã triển khai trong workspace; GUIDE vẫn cho phép các vector store tương đương.
+
+### Triển khai hiện có trong workspace
+
+Pipeline đã được hiện thực bằng Python 3.14, Sentence Transformers chạy local và Qdrant server trong Docker (không dùng PostgreSQL cho lần chạy này). Corpus snapshot 30 trang, manifest và benchmark nằm trong `data/`; hướng dẫn setup, chạy test, khởi động Qdrant và chạy A/B/C được ghi tại [starter/README.md](starter/README.md). Kết quả benchmark có thể tái lập nằm trong `starter/results/final_v3/`.
 
 ## 1. Xây pipeline
 

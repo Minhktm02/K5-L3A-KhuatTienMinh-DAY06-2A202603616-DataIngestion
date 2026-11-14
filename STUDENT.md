@@ -1,8 +1,8 @@
 # Thông tin học viên
 
-- Họ và tên:
-- MSSV:
-- Lớp: L3A / L3B / khác:
-- Chủ đề và corpus:
-- Repo bài nộp:
-- Commit chốt bài:
+- Họ và tên: Khuất Tiến Minh
+- MSSV: 2A202603616
+- Lớp: L3A
+- Chủ đề và corpus: World Bank Europe and Central Asia Economic Update, Spring 2021; 30 trang PDF vật lý 19–48
+- Repo bài nộp: https://github.com/Minhktm02/K5-L3A-DAY06-2A202603616-DataIngestion
+- Commit chốt bài: Chưa commit theo yêu cầu

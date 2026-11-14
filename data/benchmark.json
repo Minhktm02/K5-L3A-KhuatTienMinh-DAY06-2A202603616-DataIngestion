@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "corpus_id": "world-bank-eca-spring-2021",
+  "benchmark_version": 2,
+  "prepared_before_final_retrieval": true,
+  "split_method": "q01-q15 are dev; q21-q25 are the replacement held-out test, fixed before the final retrieval run. Questions cover four printed report sections; the replacement test questions were not used in the preliminary run.",
+  "prior_run_note": "The preliminary test q16 expected both 2021 and 2022 growth, but its gold evidence supported only 2021. Its initial traces remain in starter/results and are not final evaluation results. The replacement test was prepared from different source passages without using the preliminary scores to tune configurations.",
+  "test_revision_note": "The replacement questions were selected after the preliminary run had been inspected, so they are not a fully blind holdout. They were not used to tune chunking/model settings; treat test estimates as illustrative.",
+  "leakage_risk": "All questions come from one report and the selected pages are consecutive; results are illustrative for this corpus, not generalizable.",
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "Theo dự báo trong báo cáo, đến năm 2022 GDP bình quân đầu người toàn cầu còn cách mức trước đại dịch bao xa?",
+      "expected_answer": "GDP bình quân đầu người toàn cầu được dự báo thấp hơn mức trước đại dịch 4,4% vào năm 2022.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "20",
+          "evidence_quote": "At this rate, global per capita GDP would remain 4.4 percent below pre-pandemic projections by 2022, reflecting the dampening effects of lingering risk aversion on the demand side and of diminished physical and human capital accumulation on labor productivity."
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "direct",
+      "question": "Tốc độ tăng trưởng toàn cầu được dự báo cho năm 2022 là bao nhiêu?",
+      "expected_answer": "3,8% trong năm 2022.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "20",
+          "evidence_quote": "After this year’s pickup, global growth was forecast to moderate to 3.8 percent in 2022—still above its potential pace but weighed down by lasting damage from COVID-19 (figure 1.1, panel A)."
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "direct",
+      "question": "Dự báo cơ sở được công bố vào tháng Một đặt mức phục hồi tăng trưởng toàn cầu cho hai năm tiếp theo ra sao?",
+      "expected_answer": "4% năm 2021 và 3,8% năm 2022.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "24",
+          "evidence_quote": "The global forecast published in January expected a baseline recovery of 4 per - cent in 2021 and 3.8 percent in 2022."
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Trong mục Global Risks, những yếu tố nào có thể khiến dịch bệnh bùng phát trở lại?",
+      "expected_answer": "Biện pháp kiểm soát đại dịch thất bại hoặc triển khai vaccine bị chậm trễ hay tắc nghẽn.",
+      "filter": {
+        "section": "Global Risks"
+      },
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "24",
+          "evidence_quote": "The spread of the virus could reaccelerate if pandemic control measures fail or vaccine deployment faces de - lays or bottlenecks."
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "direct",
+      "question": "Nghiên cứu được nhắc đến đã xem xét bao nhiêu thông báo chính sách trong giai đoạn nào?",
+      "expected_answer": "Hơn 400 thông báo chính sách từ tháng Hai đến tháng Tư năm 2020.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "26",
+          "evidence_quote": "Next, the authors investigate more than 400 policy announcements between February and April 2020."
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "direct",
+      "question": "Theo báo cáo, biện pháp hỗ trợ thanh khoản giúp cơ quan tiền tệ mở rộng loại nguồn vốn nào cho ngân hàng?",
+      "expected_answer": "Nguồn vốn ngắn hạn bằng nội tệ và ngoại tệ.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "26",
+          "evidence_quote": "Liquidity support mea - sures are used by monetary authorities to expand banks’ short-term funding in domestic and foreign currency."
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "direct",
+      "question": "Nhóm biện pháp thận trọng tạm thời thay đổi những yêu cầu nào?",
+      "expected_answer": "Nới lỏng tạm thời các yêu cầu quản lý và giám sát, bao gồm cả bộ đệm vốn.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "26",
+          "evidence_quote": "Prudential measures deal with the temporary relaxation of regulatory and supervisory requirements, including capital buffers."
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "direct",
+      "question": "Hai ví dụ nào được báo cáo xếp vào nhóm biện pháp chính sách tiền tệ?",
+      "expected_answer": "Cắt giảm lãi suất chính sách và nới lỏng định lượng.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "26",
+          "evidence_quote": "Monetary policy measures include policy rate cuts and quantitative easing."
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "direct",
+      "question": "Thông báo hỗ trợ thanh khoản có liên hệ thế nào với giá cổ phiếu ngân hàng?",
+      "expected_answer": "Các thông báo này đi kèm mức tăng lớn của giá cổ phiếu ngân hàng.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "26",
+          "evidence_quote": "Announcements of liquidity support were associated with large increases in banks’ stock prices."
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Trong mục Recent Developments, trung vị thời gian chờ trước khi nới hạn chế là bao lâu, và bao nhiêu quốc gia bắt đầu trước đỉnh dịch đầu tiên?",
+      "expected_answer": "Trung vị là 11 ngày sau đỉnh dịch; một phần tư số quốc gia bắt đầu nới hạn chế trước đỉnh đầu tiên.",
+      "filter": {
+        "section": "Recent Developments"
+      },
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "31",
+          "evidence_quote": "The median wait in the sample of countries is 11 days after the peak of the outbreak. A quarter of the countries started relaxing their restrictions before the first peak."
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "conditional",
+      "question": "So với chuyển thẳng từ phong tỏa hoàn toàn sang không phong tỏa, cách chuyển tiếp nào được mô tả là hiệu quả hơn?",
+      "expected_answer": "Chuyển từ phong tỏa hoàn toàn sang một phần rồi mới dỡ bỏ hoàn toàn.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "32",
+          "evidence_quote": "The transition from full to partial to no lockdown appears to be a more effective strategy of lifting the restrictions than a direct move from full to no lockdown."
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "conditional",
+      "question": "Báo cáo ước tính thêm bao nhiêu người trong khu vực có thể rơi dưới hai ngưỡng nghèo được nêu?",
+      "expected_answer": "2,2 triệu người dưới ngưỡng 3,20 USD/ngày; con số ở ngưỡng 5,50 USD/ngày lên tới 6 triệu.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "34",
+          "evidence_quote": "It is estimated that the pandemic will push an additional 2.2 million people under the $3.20 a day poverty line in the region. At the $5.50 a day poverty line, which is more commonly used in upper-middle-income countries, this figure is as high as six million."
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "direct",
+      "question": "Phân tích được trích dẫn dự báo đại dịch có thể tạo thêm bao nhiêu người nghèo ở Thổ Nhĩ Kỳ và làm chậm tiến trình giảm nghèo bao lâu?",
+      "expected_answer": "1,6 triệu người nghèo mới và chậm lại ba năm tiến bộ giảm nghèo.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "35",
+          "evidence_quote": "Recent analysis using micro data on job losses and household consumption to gauge the impact of the pandemic suggests that the crisis may create\n1.6 million new poor in Turkey, setting back pov -\nerty reduction gains by three years."
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "direct",
+      "question": "Trong nửa cuối năm 2020, giá ba nhóm hàng/dịch vụ nào tăng bao nhiêu phần trăm trong giỏ tiêu dùng của hộ thu nhập thấp?",
+      "expected_answer": "Thực phẩm chưa chế biến 19,8%; bánh mì và ngũ cốc 16,3%; vận tải 14,7%.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "36",
+          "evidence_quote": "In the sec -\nond half of 2020, the prices of basic goods and ser-\nvices with a high share in the typical consumption basket of low-income families recorded significant increases: prices of unprocessed foods rose by 19.8 percent, bread and cereals by 16.3 percent, and transport by 14.7 percent."
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "metadata_filter",
+      "question": "Trong mục Recent Developments, mức nợ trung bình của khu vực được dự báo ở mức nào vào năm 2022 và thay đổi bao nhiêu so với năm 2019?",
+      "expected_answer": "Trên 50% GDP, cao hơn khoảng 9 điểm phần trăm so với năm 2019.",
+      "filter": {
+        "section": "Recent Developments"
+      },
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "39",
+          "evidence_quote": "In all, the fiscal response and contraction in output is expected to raise average debt levels to over 50 percent of GDP by 2022—roughly 9 percentage points higher than in 2019 (figure 1.7, panel D)."
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Theo chú thích của Figure B1.2.2 trong mục Recent Developments, partial lockdown áp dụng cho phạm vi nào?",
+      "expected_answer": "Chỉ áp dụng cho một khu vực địa lý hoặc một nhóm hoạt động được nhắm mục tiêu.",
+      "filter": {
+        "section": "Recent Developments"
+      },
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "30",
+          "evidence_quote": "A partial lockdown\nonly applies to a geographical region or a targeted set of activities."
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "conditional",
+      "question": "Chú thích số 2 nêu những giải thích khả dĩ nào cho sự phục hồi của dòng kiều hối, và điều gì vẫn chưa rõ?",
+      "expected_answer": "Người di cư có thể dùng tiền tiết kiệm hoặc nhận chuyển tiền từ chính phủ nước sở tại; hạn chế đi lại cũng có thể chuyển dòng tiền từ xách tay không chính thức sang chuyển khoản chính thức. Chưa rõ thay đổi thành phần này ảnh hưởng tổng lượng kiều hối ra sao.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "33",
+          "evidence_quote": "There could be several explanations for the observed recovery of remittance flows in the\nsecond half of 2020 and early 2021. Some studies indicate that migrants might have drawn\non their saving to send money home during the pandemic, or that some migrants were able\nto access cash transfers offered by host country governments. Another relevant explanation\nfor ECA is a shift in flows from informal (unrecorded) hand-carrying to formal (recorded)\nremittance channels. The emerging studies (for example, Dinarte et al., 2021) indicate that\nthe mobility constraints that prevented travelers from carrying cash across borders made\nelectronic wire transfers the only option to remit. Because wire transfers are registered by\nthe central banks, many countries saw an increase in formal remittances over the past sev-\neral months. However, the impact of this compositional shift on the total amount of remit-\ntances is unclear."
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Trong mục Recent Developments, trong số các nền kinh tế ECA có mục tiêu lạm phát, tỷ lệ nào vượt trần mục tiêu và tỷ lệ nào phải tăng lãi suất đột ngột đầu năm 2021?",
+      "expected_answer": "Gần một nửa trong 17 nền kinh tế có mục tiêu lạm phát vượt dải trên; khoảng một phần ba các nền kinh tế ECA phải tăng lãi suất chính sách đột ngột.",
+      "filter": {
+        "section": "Recent Developments"
+      },
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "38",
+          "evidence_quote": "Of the 17 ECA economies with stated inflation targets, nearly half reported head-\nline inflation that exceeded the upper inflation band in early 2021 (figure 1.7,\npanel B). As a result of inflationary pressures, roughly a third of ECA’s economies\nwere forced to abruptly hike policy interest rates in early 2021."
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "split": "test",
+      "type": "direct",
+      "question": "Theo báo cáo, đến giữa tháng Ba tỷ lệ tiêm vaccine tại Nga là bao nhiêu, và mục tiêu tiêm chủng người trưởng thành khi nào?",
+      "expected_answer": "Dưới 5,4% dân số đã nhận một liều; mục tiêu là tiêm 60% người trưởng thành vào giữa năm 2021.",
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "41",
+          "evidence_quote": "Despite the rollout of Russia’s Sputnik V vaccine in December, less than 5.4 per-\ncent of the population had received a dose as of mid-March, reflecting a general\nreluctance to be immunized. Unless vaccine uptake accelerates, the Ministry of\nHealth’s target of vaccinating 60 percent of adults by mid-2021 could remain a\ndistant goal."
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Trong mục Regional Outlook, đến đầu tháng Ba chương trình tiêm chủng đã tiến triển ở khoảng bao nhiêu phần trăm các quốc gia trong khu vực?",
+      "expected_answer": "Khoảng 75% quốc gia trong khu vực đã triển khai tiêm chủng.",
+      "filter": {
+        "section": "Regional Outlook"
+      },
+      "gold": [
+        {
+          "document_id": "world-bank-eca-spring-2021",
+          "page": "43",
+          "evidence_quote": "Vaccine rollout in some ECA economies (Cen -\ntral Europe, the Russian Federation, and Serbia)\nbegan as early as December 2020, and has since\nprogressed in about 75 percent of the region’s\ncountries (figure B1.4.2, panel A)."
+        }
+      ]
+    }
+  ]
+}
