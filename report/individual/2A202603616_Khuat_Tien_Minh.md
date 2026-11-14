@@ -22,7 +22,7 @@
 - **Benchmark:** 20 câu, gồm 15 dev và 5 test; có 6 câu metadata filter, trong đó 3 câu thuộc test.
 - **Evidence:** Đối chiếu kết quả retrieval với gold source/page và evidence quote trong benchmark.
 - **Lưu ý test:** q16 ban đầu không đủ evidence để trả lời toàn bộ câu hỏi; q21–q25 được chuẩn bị sau khi xem kết quả sơ bộ. Vì vậy, test có nguy cơ post-hoc bias và không phải holdout độc lập hoàn toàn.
-- **Tiêu chí chọn chiến lược:** Báo cáo kết quả theo Hit@1, Evidence Hit@3, filter compliance, chất lượng chunk, grounding, thời gian và chi phí. Chưa có bằng chứng xác nhận tiêu chí lựa chọn đã được chốt trước khi xem test.
+- **Tiêu chí chọn chiến lược:** `run_metadata.json` ghi quy tắc chọn theo Evidence Hit@3 trên dev, tiếp đến grounding rồi tài nguyên. Artifacts không xác nhận thời điểm quy tắc này được chốt; hơn nữa chưa có nhãn grounding để áp dụng đầy đủ quy tắc đó.
 
 ## Kết quả
 
@@ -39,12 +39,14 @@
 
 | Strategy | Coherence trung bình /2 (n) | Metadata đủ và đúng | Filter tuân thủ | Grounding 0/1/2 |
 |---|---|---|---|---|
-| A | Chưa có nhãn xác thực | Chưa xác minh đầy đủ | N/A | Chưa có nhãn xác thực |
-| B | Chưa có nhãn xác thực | Chưa xác minh đầy đủ | N/A | Chưa có nhãn xác thực |
-| C | Chưa có nhãn xác thực | Chưa xác minh đầy đủ | 9/9 mỗi split | Chưa có nhãn xác thực |
+| A | 1.0/2 (n=10) | 15/15 | N/A | 0/1/2 = 1/2/2; trung bình 1.2/2 (n=5) |
+| B | 1.4/2 (n=10) | 15/15 | N/A | 0/1/2 = 0/3/2; trung bình 1.4/2 (n=5) |
+| C | 1.4/2 (n=10) | 15/15 | 9/9 mỗi split | 0/1/2 = 0/2/3; trung bình 1.6/2 (n=5) |
 
-- `audit_candidates.json` trong run mới có `label_0_to_2: null`; do đó không báo cáo điểm coherence/grounding như kết quả chấm tay.
-- Filter compliance của C là 9/9 trên 3 câu hỏi filter mỗi split; đây là mức tuân thủ filter, không phải retrieval accuracy.
+- **Audit coherence:** 30/30 candidate (10 vị trí cố định × 3 chiến lược) đã được gán nhãn theo rubric 0–2; điểm trung bình A=1.0, B=1.4, C=1.4. Các lý do theo từng chunk nằm trong `audit_candidates.json`.
+- **Audit grounding:** 45/45 hit (5 câu test × top-3 × 3 chiến lược) đã được gán nhãn 0–2 theo mức đủ bằng chứng. Điểm câu hỏi được tổng hợp theo nhãn cao nhất trong top-3; phân bố và trung bình theo chiến lược nằm trong bảng trên. Các nhãn là AI-assisted do Copilot thực hiện theo rubric, chưa được học viên xác nhận và không phải đánh giá độc lập của con người.
+- `run.py` tạo và ghi cấu trúc candidate với nhãn ban đầu là `None`; các trường hiện có đủ để lưu nhãn/lý do trong artifact. Nếu chạy lại, script sẽ tạo lại placeholder, nên không chạy lại để bảo toàn audit này. Không cần sửa code.
+- **Metadata:** 45/45 hit test (15 hit mỗi chiến lược) khớp document/source/page, page metadata, offsets và nội dung chunk trong corpus snapshot. Gold quote test khớp nguồn 5/5. Filter compliance C là 9/9 trên 3 câu có filter mỗi split; đây là tuân thủ filter, không phải retrieval accuracy.
 - A có tổng độ dài chunk 98.983 ký tự do overlap; B/C có 91.063 ký tự. Đây là tổng độ dài chunk, không phải độ dài corpus nguồn.
 - Số token: A 24.157; B/C 22.075.
 
@@ -55,7 +57,7 @@
 - **A–B:** A đạt Evidence Hit@3 dev 9/15 so với 8/15 của B; test cả hai cùng 2/5. A dùng overlap và có nhiều chunk hơn, đồng thời thời gian ingest dài hơn.
 - **B–C:** C giữ nguyên cách chunking của B và bổ sung filter. C đạt test Evidence Hit@3 3/5 so với 2/5 của B; tuy nhiên test chỉ có 5 câu và có post-hoc bias.
 - **Chiến lược:** C cho kết quả test tốt nhất trong run này và thể hiện filter compliance 9/9, nhưng chưa đủ cơ sở kết luận C vượt trội tổng quát. Việc chọn chiến lược còn phụ thuộc yêu cầu về metadata filter và chi phí vận hành.
-- **Hai ví dụ retrieval sai:** Cần điền ID câu hỏi, kết quả top-3 và gold source/page trực tiếp từ `traces.jsonl`; không tự suy đoán ví dụ khi chưa đối chiếu trace.
-- **Hạn chế:** Test nhỏ và có post-hoc bias; coherence/grounding chưa có nhãn xác thực; thời gian ingest C không so sánh trực tiếp được với A/B do tái sử dụng vectors.
+- **Hai ví dụ retrieval miss (C, test; đối chiếu `traces.jsonl` với gold):** q22 có hit ở trang gold 33 nhưng top-3 không chứa đủ evidence quote; q25 có filter `section=Regional Outlook` tuân thủ trong top-3 nhưng không truy xuất được evidence quote gold ở trang 43. Hai trường hợp này cho thấy filter compliance không đồng nghĩa retrieval hit.
+- **Hạn chế:** Test chỉ có 5 câu và có post-hoc bias. Coherence/grounding labels là AI-assisted, chưa được học viên xác nhận. Thời gian ingest C không so sánh trực tiếp được với A/B do tái sử dụng vectors.
 - **Cải tiến:** Xây dựng test holdout mới trước khi chạy; hoàn tất chấm coherence/grounding có hướng dẫn và người xác nhận; bổ sung audit lỗi retrieval và đo thời gian cold ingestion thống nhất.
 
